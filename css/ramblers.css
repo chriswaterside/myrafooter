@@ -646,3 +646,20 @@ a[href$='.xls'] {
 	background: url(../images/icons/icons-ext.png) no-repeat right -1892px;
 }
 
+/* Set print and email options */
+
+div.btn-group.pull-right {           float:right;
+
+
+  background-color: #DDDDDD;
+  border-radius: 10px;
+}
+#sp-leftcol div.btn-group.pull-right ul li{
+   list-style: none outside none;
+}
+
+/*&nbsp;Article deatils */
+dl.article-info dt{
+  display: none;
+}
+
