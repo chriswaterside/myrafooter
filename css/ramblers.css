@@ -565,7 +565,7 @@ a[href$='.ical'] {
 }
 
 a[href^="mailto:"] {
-	padding-right: 25px;
+	padding-right: 20px;
 	padding-bottom: 1px;
 	background: url(../images/icons/icons-ext.png) no-repeat right -860px;
 }

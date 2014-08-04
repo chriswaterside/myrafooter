@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension type="module" version="2.5" client="site" method="upgrade">
+<extension type="module" version="3.0" client="site" method="upgrade">
 <name>RA Footer</name>
 <author>Chris Vaughan</author>
 <creationDate>2014-07-23</creationDate>
@@ -7,12 +7,13 @@
 <license>This extension in released under the GNU/GPL License</license>
 <authorEmail>webmaster@ramblers-webs.org.uk</authorEmail>
 <authorUrl>www.ramblers-webs.org.uk</authorUrl>
-<version>1.1</version>
+<version>1.2</version>
 <description>This module displays fully customizable footer module for Ramblers branding</description>
 <files>
 	<filename >mod_rafooter.php</filename>
 	<folder module="mod_rafooter">tmpl</folder>
 	<folder>images</folder>
+	<folder>images/icons/</folder>
 	<folder>css</folder>
 	<filename>index.html</filename>
 </files>
