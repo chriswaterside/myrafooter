@@ -69,6 +69,7 @@ legend.hidelabeltxt {
 }
 /* Modules */
 
+#col2 div.spramod_heading7474.module, #col3 div.spramod_heading7474.module,
 #col2 div.spramod_outline0110.module, #col3 div.spramod_outline0110.module,
 #col2 div.spramod_outline0159.module, #col3 div.spramod_outline0159.module,
 #col2 div.spramod_outline0186.module, #col3 div.spramod_outline0186.module,
@@ -92,6 +93,15 @@ legend.hidelabeltxt {
   border-width: 3px;
 }
 
+#col2 div.spramod_heading0110.module div, #col3 div.spramod_heading0110.module div,
+#col2 div.spramod_heading0159.module div, #col3 div.spramod_heading0159.module div,
+#col2 div.spramod_heading0186.module div, #col3 div.spramod_heading0186.module div,
+#col2 div.spramod_heading0555.module div, #col3 div.spramod_heading0555.module div,
+#col2 div.spramod_heading0583.module div, #col3 div.spramod_heading0583.module div,
+#col2 div.spramod_heading1815.module div, #col3 div.spramod_heading1815.module div,
+#col2 div.spramod_heading4485.module div, #col3 div.spramod_heading4485.module div,
+#col2 div.spramod_heading5565.module div, #col3 div.spramod_heading5565.module div,
+#col2 div.spramod_heading7474.module div, #col3 div.spramod_heading7474.module div,
 #col2 div.spramod_outline0110.module div, #col3 div.spramod_outline0110.module div,
 #col2 div.spramod_outline0159.module div, #col3 div.spramod_outline0159.module div,
 #col2 div.spramod_outline0186.module div, #col3 div.spramod_outline0186.module div,
@@ -128,6 +138,55 @@ legend.hidelabeltxt {
   text-shadow: none;
   background: none;
 }
+#col2 div.spramod_heading0110.module h3, #col3 div.spramod_heading0110.module h3,
+#col2 div.spramod_heading0159.module h3, #col3 div.spramod_heading0159.module h3,
+#col2 div.spramod_heading0186.module h3, #col3 div.spramod_heading0186.module h3,
+#col2 div.spramod_heading0555.module h3, #col3 div.spramod_heading0555.module h3,
+#col2 div.spramod_heading0583.module h3, #col3 div.spramod_heading0583.module h3,
+#col2 div.spramod_heading1815.module h3, #col3 div.spramod_heading1815.module h3,
+#col2 div.spramod_heading4485.module h3, #col3 div.spramod_heading4485.module h3,
+#col2 div.spramod_heading5565.module h3, #col3 div.spramod_heading5565.module h3,
+#col2 div.spramod_heading7474.module h3, #col3 div.spramod_heading7474.module h3  {
+  margin: 0px 0px 0px;
+  padding: 5px 12px 5px;
+  border-radius: 5px 5px 5px 5px;
+  color: #FFFFFF;
+  font-size: 125%;
+  font-weight: bold;
+  text-transform: none;
+  text-shadow: none;
+  background: none;
+}
+
+/* set hending colours */
+#col2 div.spramod_heading0110.module h3,#col3 div.spramod_heading0110.module h3 {
+  background: #D7A900;
+}
+#col2 div.spramod_heading0159.module h3,#col3 div.spramod_heading0159.module h3 {
+  background: #C75B12;
+}
+#col2 div.spramod_heading0186.module h3,#col3 div.spramod_heading0186.module h3 {
+  background: #C60C30;
+}
+#col2 div.spramod_heading0555.module h3,#col3 div.spramod_heading0555.module h3 {
+  background: #206C49;
+}
+#col2 div.spramod_heading0583.module h3,#col3 div.spramod_heading0583.module h3 {
+  background: #A8B400;
+}
+#col2 div.spramod_heading1815.module h3,#col3 div.spramod_heading1815.module h3 {
+  background: #782327;
+}
+#col2 div.spramod_heading4485.module h3,#col3 div.spramod_heading4485.module h3 {
+  background: #5B491F;
+}
+#col2 div.spramod_heading5565.module h3,#col3 div.spramod_heading5565.module h3 {
+  background: #8BA69C;
+}
+#col2 div.spramod_heading7474.module h3,#col3 div.spramod_heading7474.module h3 {
+  background: #007A87;
+}
+
 /* outline set colours*/
 
 #col2 div.spramod_outline0110.module,#col3 div.spramod_outline0110.module {
