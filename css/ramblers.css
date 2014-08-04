@@ -1,0 +1,351 @@
+/* Change log                                                            */
+/*                                                                      */
+/* May 2013 - correction to RA Module Pantone to have white text  */
+/* May 2013 - correction to h4 a in modules to be smaller text     */
+/* Dec 2013 - changed to support Epic Pro 6.0.0     */
+/* July 2014 - changed to support SP Speedy instead */
+/* Ramblers colours */
+/* pantone0110 '#D7A900';           */
+/* pantone0159 '#C75B12';           */
+/* pantone0186 '#C60C30';           */
+/* pantone0555 '#206C49';           */
+/* pantone0583 '#A8B400';           */
+/* pantone1815 '#782327';           */
+/* pantone4485 '#5B491F';           */
+/* pantone5565 '#8BA69C';           */
+/* pantone7474 '#007A87';           */
+/* ============================== TYPOGRAPHY ============================== */
+
+#nav li span.separator {
+    color: #cfcfcf;
+    display: block;
+    line-height: 30px;
+    padding: 0 10px;
+}
+.cancelled {color:#C60C30; text-decoration: line-through;}         
+
+.preformat {
+    background: none repeat scroll 0 0 #ffffd5;
+    border-left: 5px solid #404040;
+    padding: 1em;
+}
+.text-highlight {
+    background: none repeat scroll 0 0 #ffffaa;
+    padding: 0.2em 0.5em;
+}
+
+div.footer {
+  font-size: 0.9em;
+  background-color: #DDDDDD;
+  border-radius: 10px 10px 10px 10px;
+}
+/* Print font setting */
+
+body.contentpane {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.alert-heading {
+color: #CB2327;
+}
+.alert.alert-message {
+color: #DC2327;
+}
+/* =============== LAYOUT - OVERALL PAGE =============== */
+/* Hide Jguard footer */
+
+span#sgfooter {
+  display: none;
+}
+/* Hide text */
+
+legend.hidelabeltxt {
+  display: none;
+}
+/* class to hide sections, in particular header top and social icons*/
+
+.ramblers-remove {
+  display: none;
+  padding: 0px;
+}
+/* Modules */
+
+#col2 div.spramod_outline0110.module, #col3 div.spramod_outline0110.module,
+#col2 div.spramod_outline0159.module, #col3 div.spramod_outline0159.module,
+#col2 div.spramod_outline0186.module, #col3 div.spramod_outline0186.module,
+#col2 div.spramod_outline0555.module, #col3 div.spramod_outline0555.module,
+#col2 div.spramod_outline0583.module, #col3 div.spramod_outline0583.module,
+#col2 div.spramod_outline1815.module, #col3 div.spramod_outline1815.module,
+#col2 div.spramod_outline4485.module, #col3 div.spramod_outline4485.module,
+#col2 div.spramod_outline5565.module, #col3 div.spramod_outline5565.module,
+#col2 div.spramod_outline7474.module, #col3 div.spramod_outline7474.module
+ {
+  border-radius: 10px 10px 0px 0px;
+  margin-bottom: 10px;
+  margin-left: 6px;
+  margin-right: 6px;
+  float: left;
+  clear: both;
+  padding: 0px;
+  background-color: #FFFFFF;
+  border-radius: 10px 10px 10px 10px;
+  border-style: solid;
+  border-width: 3px;
+}
+
+#col2 div.spramod_outline0110.module div, #col3 div.spramod_outline0110.module div,
+#col2 div.spramod_outline0159.module div, #col3 div.spramod_outline0159.module div,
+#col2 div.spramod_outline0186.module div, #col3 div.spramod_outline0186.module div,
+#col2 div.spramod_outline0555.module div, #col3 div.spramod_outline0555.module div,
+#col2 div.spramod_outline0583.module div, #col3 div.spramod_outline0583.module div,
+#col2 div.spramod_outline1815.module div, #col3 div.spramod_outline1815.module div,
+#col2 div.spramod_outline4485.module div, #col3 div.spramod_outline4485.module div,
+#col2 div.spramod_outline5565.module div, #col3 div.spramod_outline5565.module div,
+#col2 div.spramod_outline7474.module div, #col3 div.spramod_outline7474.module div {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 0px;
+  padding-bottom: 5px;
+  margin: 0;
+  float: none;
+  background: none;
+}
+#col2 div.spramod_outline0110.module h3, #col3 div.spramod_outline0110.module h3,
+#col2 div.spramod_outline0159.module h3, #col3 div.spramod_outline0159.module h3,
+#col2 div.spramod_outline0186.module h3, #col3 div.spramod_outline0186.module h3,
+#col2 div.spramod_outline0555.module h3, #col3 div.spramod_outline0555.module h3,
+#col2 div.spramod_outline0583.module h3, #col3 div.spramod_outline0583.module h3,
+#col2 div.spramod_outline1815.module h3, #col3 div.spramod_outline1815.module h3,
+#col2 div.spramod_outline4485.module h3, #col3 div.spramod_outline4485.module h3,
+#col2 div.spramod_outline5565.module h3, #col3 div.spramod_outline5565.module h3,
+#col2 div.spramod_outline7474.module h3, #col3 div.spramod_outline7474.module h3  {
+  margin: 0px 0px 0px;
+  padding: 5px 12px 5px;
+  border-radius: 5px 5px 0px 0px;
+  color: #FFFFFF;
+  font-size: 125%;
+  font-weight: bold;
+  text-transform: none;
+  text-shadow: none;
+  background: none;
+}
+/* outline set colours*/
+
+#col2 div.spramod_outline0110.module,#col3 div.spramod_outline0110.module {
+  border-color: #D7A900;
+}
+#col2 div.spramod_outline0110.module h3,#col3 div.spramod_outline0110.module h3 {
+  background: #D7A900;
+}
+
+#col2 div.spramod_outline0159.module,#col3 div.spramod_outline0159.module {
+  border-color: #C75B12;
+}
+#col2 div.spramod_outline0159.module h3,#col3 div.spramod_outline0159.module h3 {
+  background: #C75B12;
+}
+
+#col2 div.spramod_outline0186.module,#col3 div.spramod_outline0186.module {
+  border-color: #C60C30;
+}
+#col2 div.spramod_outline0186.module h3,#col3 div.spramod_outline0186.module h3 {
+  background: #C60C30;
+}
+
+#col2 div.spramod_outline0555.module,#col3 div.spramod_outline0555.module {
+  border-color: #206C49;
+}
+#col2 div.spramod_outline0555.module h3,#col3 div.spramod_outline0555.module h3 {
+  background: #206C49;
+}
+
+#col2 div.spramod_outline0583.module,#col3 div.spramod_outline0583.module {
+  border-color: #A8B400;
+}
+#col2 div.spramod_outline0583.module h3,#col3 div.spramod_outline0583.module h3 {
+  background: #A8B400;
+}
+
+#col2 div.spramod_outline1815.module,#col3 div.spramod_outline1815.module {
+  border-color: #782327;
+}
+#col2 div.spramod_outline1815.module h3,#col3 div.spramod_outline1815.module h3 {
+  background: #782327;
+}
+
+#col2 div.spramod_outline4485.module,#col3 div.spramod_outline4485.module {
+  border-color: #5B491F;
+}
+#col2 div.spramod_outline4485.module h3,#col3 div.spramod_outline4485.module h3 {
+  background: #5B491F;
+}
+
+#col2 div.spramod_outline5565.module,#col3 div.spramod_outline5565.module {
+  border-color: #8BA69C;
+}
+#col2 div.spramod_outline5565.module h3,#col3 div.spramod_outline5565.module h3 {
+  background: #8BA69C;
+}
+
+#col2 div.spramod_outline7474.module,#col3 div.spramod_outline7474.module {
+  border-color: #007A87;
+}
+#col2 div.spramod_outline7474.module h3,#col3 div.spramod_outline7474.module h3 {
+  background: #007A87;
+}
+
+
+
+
+
+/* Link buttons in RA colours */
+a.link-button, .link-button a {
+    color: #fff ;
+    font-weight: bold;
+}
+.link-button, .link-button a {
+    transition: all 0.3s ease-out 0s;
+}
+.link-button {
+    border-radius: 5px;
+}
+.link-button {
+    border: 1px solid #595959;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.1em;
+    padding: 5px 12px;
+    text-decoration: none;
+}
+
+.link-button.button-p0110, .link-button.button-p0110:hover {
+    background-image: linear-gradient(-90deg, #D7A900 0%, #FBC200 100%);
+}
+.link-button.button-p0159, .link-button.button-p0159:hover {
+    background-image: linear-gradient(-90deg, #C75B12 0%, #E06614 100%);
+}
+.link-button.button-p0186, .link-button.button-p0186:hover {
+    background-image: linear-gradient(-90deg, #C60C30 0%, #F2224B 100%);
+}
+.link-button.button-p0555, .link-button.button-p0555:hover {
+    background-image: linear-gradient(-90deg, #206C49 0%, #2B9163 100%);
+}
+.link-button.button-p0583, .link-button.button-p0583:hover {
+    background-image: linear-gradient(-90deg, #A8B400 0%, #C9D900 100%);
+}
+.link-button.button-p1815, .link-button.button-p1815:hover {
+    background-image: linear-gradient(-90deg, #782327 0%, #9F2F34 100%);
+}
+.link-button.button-p4485, .link-button.button-p4485:hover {
+    background-image: linear-gradient(-90deg, #5B491F 0%, #82682D 100%);
+}
+.link-button.button-p5565, .link-button.button-p5565:hover {
+    background-image: linear-gradient(-90deg, #8BA69C 0%, #A3B8B0 100%);
+}
+.link-button.button-p7474, .link-button.button-p7474:hover {
+    background-image: linear-gradient(-90deg, #007A87 0%, #00A5B7 100%);
+}
+
+/* Coloured bullet lists */
+ul.list-number-bullet li {
+    margin-left: 0;
+    padding: 6px 0 6px 36px;
+    position: relative;
+}
+ul.list-number-bullet li .jsn-listbullet {
+    border-radius: 5px;
+}
+ul.list-number-bullet li .jsn-listbullet {
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    height: 24px;
+    left: 0;
+    line-height: 24px;
+    margin: 4px;
+    position: absolute;
+    text-align: center;
+    top: -2px;
+    width: 24px;
+}
+ul.list-number-bullet {
+    list-style: none outside none;
+}
+ul.list-number-bullet.bullet-p0110 li .jsn-listbullet {
+    background-image: linear-gradient(-90deg, #D7A900 0%, #FBC200 100%);
+}
+ul.list-number-bullet.bullet-p0159 li .jsn-listbullet {
+    background-image: linear-gradient(-90deg, #C75B12 0%, #E06614 100%);
+}
+ul.list-number-bullet.bullet-p0186 li .jsn-listbullet {
+    background-image: linear-gradient(-90deg, #C60C30 0%, #F2224B 100%);
+}
+ul.list-number-bullet.bullet-p0555 li .jsn-listbullet {
+    background-image: linear-gradient(-90deg, #206C49 0%, #2B9163 100%);
+}
+ul.list-number-bullet.bullet-p0583 li .jsn-listbullet {
+    background-image: linear-gradient(-90deg, #A8B400 0%, #C9D900 100%);
+}
+ul.list-number-bullet.bullet-p1815 li .jsn-listbullet {
+    background-image: linear-gradient(-90deg, #782327 0%, #9F2F34 100%);
+}
+ul.list-number-bullet.bullet-p4485 li .jsn-listbullet {
+    background-image: linear-gradient(-90deg, #5B491F 0%, #82682D 100%);
+}
+ul.list-number-bullet.bullet-p5565 li .jsn-listbullet {
+    background-image: linear-gradient(-90deg, #8BA69C 0%, #A3B8B0 100%);
+}
+ul.list-number-bullet.bullet-p7474 li .jsn-listbullet {
+    background-image: linear-gradient(-90deg, #007A87 0%, #00A5B7 100%);
+}
+
+
+/* coloured numbers in lists */
+ul.list-number-digit li {
+    margin-left: 0;
+    padding: 8px 0 8px 42px;
+    position: relative;
+}
+ul.list-number-digit li .jsn-listbullet {
+    display: block;
+    font-size: 32px;
+    font-weight: bold;
+    left: 0;
+    line-height: 100%;
+    position: absolute;
+    text-align: right;
+    top: 0;
+    width: 32px;
+}
+ul.list-number-digit {
+    list-style: none outside none;
+}
+
+ul.list-number-digit.digit-p0110 li .jsn-listbullet {
+    color: #D7A900;
+}
+ul.list-number-digit.digit-p0159 li .jsn-listbullet {
+    color: #C75B12;
+}
+ul.list-number-digit.digit-p0186 li .jsn-listbullet {
+    color: #C60C30;
+}
+ul.list-number-digit.digit-p0555 li .jsn-listbullet {
+    color: #206C49;
+}
+ul.list-number-digit.digit-p0583 li .jsn-listbullet {
+    color: #C9D900;
+}
+ul.list-number-digit.digit-p1815 li .jsn-listbullet {
+    color: #782327;
+}
+ul.list-number-digit.digit-p4485 li .jsn-listbullet {
+    color: #82682D;
+}
+ul.list-number-digit.digit-p5565 li .jsn-listbullet {
+    color: #8BA69C;
+}
+ul.list-number-digit.digit-p7474 li .jsn-listbullet {
+    color: #007A87;
+}
+

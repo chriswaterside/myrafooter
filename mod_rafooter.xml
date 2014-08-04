@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="2.5" client="site" method="upgrade">
+<name>RA Footer</name>
+<author>Chris Vaughan</author>
+<creationDate>2014-07-23</creationDate>
+<copyright>Copyright (C) 2012 Ramblers-webs.org.uk</copyright>
+<license>This extension in released under the GNU/GPL License</license>
+<authorEmail>webmaster@ramblers-webs.org.uk</authorEmail>
+<authorUrl>www.ramblers-webs.org.uk</authorUrl>
+<version>1.1</version>
+<description>This module displays fully customizable footer module for Ramblers branding</description>
+<files>
+	<filename >mod_rafooter.php</filename>
+	<folder module="mod_rafooter">tmpl</folder>
+	<folder>images</folder>
+	<folder>css</folder>
+	<filename>index.html</filename>
+</files>
+<config>
+	<fields name="params">
+		<fieldset name="basic">
+			<field name="startyear" type="text" default="2010" size="10" label="Start_Year" description="Start_year_of_web_site" />
+			<field name="copyrighttext" type="text" default="Site Name" size="10" label="Copyright_text" description="Copyright_text_or_site_name" />
+			<field name="ramblerswebs" type="radio" default="1" label="Display Ramblers-webs hosting">
+		            <option value="1">Enable</option>
+		            <option value="0">Disable</option>
+		    </field>
+		</fieldset>
+		<fieldset name="advanced">
+			<field name="layout" type="modulelayout" label="JFIELD_ALT_LAYOUT_LABEL" description="JFIELD_ALT_MODULE_LAYOUT_DESC" />
+			<field name="moduleclass_sfx" type="text" label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL" description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+			<field name="cache" type="list" default="1" label="COM_MODULES_FIELD_CACHING_LABEL" description="COM_MODULES_FIELD_CACHING_DESC">
+				<option value="1">JGLOBAL_USE_GLOBAL</option>
+				<option value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+			</field>
+			<field name="cache_time" type="text" default="900" label="COM_MODULES_FIELD_CACHE_TIME_LABEL" description="COM_MODULES_FIELD_CACHE_TIME_DESC" />
+			<field name="cachemode" type="hidden" default="static">
+				<option value="static"></option>
+			</field>
+		</fieldset>
+	</fields>
+</config>
+</extension>
