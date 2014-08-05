@@ -400,10 +400,10 @@ ul.list-number-bullet li {
     padding: 6px 0 6px 36px;
     position: relative;
 }
-ul.list-number-bullet li .jsn-listbullet {
+ul.list-number-bullet li .ra-listbullet {
     border-radius: 5px;
 }
-ul.list-number-bullet li .jsn-listbullet {
+ul.list-number-bullet li .ra-listbullet {
     color: #fff;
     display: block;
     font-size: 14px;
@@ -420,31 +420,31 @@ ul.list-number-bullet li .jsn-listbullet {
 ul.list-number-bullet {
     list-style: none outside none;
 }
-ul.list-number-bullet.bullet-p0110 li .jsn-listbullet {
+ul.list-number-bullet.bullet-p0110 li .ra-listbullet {
     background-image: linear-gradient(-90deg, #D7A900 0%, #FBC200 100%);
 }
-ul.list-number-bullet.bullet-p0159 li .jsn-listbullet {
+ul.list-number-bullet.bullet-p0159 li .ra-listbullet {
     background-image: linear-gradient(-90deg, #C75B12 0%, #E06614 100%);
 }
-ul.list-number-bullet.bullet-p0186 li .jsn-listbullet {
+ul.list-number-bullet.bullet-p0186 li .ra-listbullet {
     background-image: linear-gradient(-90deg, #C60C30 0%, #F2224B 100%);
 }
-ul.list-number-bullet.bullet-p0555 li .jsn-listbullet {
+ul.list-number-bullet.bullet-p0555 li .ra-listbullet {
     background-image: linear-gradient(-90deg, #206C49 0%, #2B9163 100%);
 }
-ul.list-number-bullet.bullet-p0583 li .jsn-listbullet {
+ul.list-number-bullet.bullet-p0583 li .ra-listbullet {
     background-image: linear-gradient(-90deg, #A8B400 0%, #C9D900 100%);
 }
-ul.list-number-bullet.bullet-p1815 li .jsn-listbullet {
+ul.list-number-bullet.bullet-p1815 li .ra-listbullet {
     background-image: linear-gradient(-90deg, #782327 0%, #9F2F34 100%);
 }
-ul.list-number-bullet.bullet-p4485 li .jsn-listbullet {
+ul.list-number-bullet.bullet-p4485 li .ra-listbullet {
     background-image: linear-gradient(-90deg, #5B491F 0%, #82682D 100%);
 }
-ul.list-number-bullet.bullet-p5565 li .jsn-listbullet {
+ul.list-number-bullet.bullet-p5565 li .ra-listbullet {
     background-image: linear-gradient(-90deg, #8BA69C 0%, #A3B8B0 100%);
 }
-ul.list-number-bullet.bullet-p7474 li .jsn-listbullet {
+ul.list-number-bullet.bullet-p7474 li .ra-listbullet {
     background-image: linear-gradient(-90deg, #007A87 0%, #00A5B7 100%);
 }
 
@@ -455,7 +455,7 @@ ul.list-number-digit li {
     padding: 8px 0 8px 42px;
     position: relative;
 }
-ul.list-number-digit li .jsn-listbullet {
+ul.list-number-digit li .ra-listbullet {
     display: block;
     font-size: 32px;
     font-weight: bold;
@@ -470,31 +470,31 @@ ul.list-number-digit {
     list-style: none outside none;
 }
 
-ul.list-number-digit.digit-p0110 li .jsn-listbullet {
+ul.list-number-digit.digit-p0110 li .ra-listbullet {
     color: #D7A900;
 }
-ul.list-number-digit.digit-p0159 li .jsn-listbullet {
+ul.list-number-digit.digit-p0159 li .ra-listbullet {
     color: #C75B12;
 }
-ul.list-number-digit.digit-p0186 li .jsn-listbullet {
+ul.list-number-digit.digit-p0186 li .ra-listbullet {
     color: #C60C30;
 }
-ul.list-number-digit.digit-p0555 li .jsn-listbullet {
+ul.list-number-digit.digit-p0555 li .ra-listbullet {
     color: #206C49;
 }
-ul.list-number-digit.digit-p0583 li .jsn-listbullet {
+ul.list-number-digit.digit-p0583 li .ra-listbullet {
     color: #C9D900;
 }
-ul.list-number-digit.digit-p1815 li .jsn-listbullet {
+ul.list-number-digit.digit-p1815 li .ra-listbullet {
     color: #782327;
 }
-ul.list-number-digit.digit-p4485 li .jsn-listbullet {
+ul.list-number-digit.digit-p4485 li .ra-listbullet {
     color: #82682D;
 }
-ul.list-number-digit.digit-p5565 li .jsn-listbullet {
+ul.list-number-digit.digit-p5565 li .ra-listbullet {
     color: #8BA69C;
 }
-ul.list-number-digit.digit-p7474 li .jsn-listbullet {
+ul.list-number-digit.digit-p7474 li .ra-listbullet {
     color: #007A87;
 }
 
