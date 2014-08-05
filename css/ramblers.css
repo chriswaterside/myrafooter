@@ -395,6 +395,10 @@ a.link-button, .link-button a {
 }
 
 /* Coloured bullet lists */
+
+#sp-leftcol ul.list-number-bullet li{
+    list-style: none outside none;
+}
 ul.list-number-bullet li {
     margin-left: 0;
     padding: 6px 0 6px 36px;
@@ -417,9 +421,7 @@ ul.list-number-bullet li .ra-listbullet {
     top: -2px;
     width: 24px;
 }
-ul.list-number-bullet {
-    list-style: none outside none;
-}
+
 ul.list-number-bullet.bullet-p0110 li .ra-listbullet {
     background-image: linear-gradient(-90deg, #D7A900 0%, #FBC200 100%);
 }
@@ -450,10 +452,11 @@ ul.list-number-bullet.bullet-p7474 li .ra-listbullet {
 
 
 /* coloured numbers in lists */
-ul.list-number-digit li {
+#sp-leftcol ul.list-number-digit li {
     margin-left: 0;
     padding: 8px 0 8px 42px;
     position: relative;
+    list-style: none outside none;
 }
 ul.list-number-digit li .ra-listbullet {
     display: block;
@@ -655,7 +658,7 @@ div.btn-group.pull-right {           float:right;
   border-radius: 10px;
 }
 #sp-leftcol div.btn-group.pull-right ul li{
-   list-style: none outside none;
+   list-style: none outside none ;
 }
 
 /*&nbsp;Article deatils */
