@@ -358,7 +358,7 @@ a.link-button, .link-button a {
     border-radius: 5px;
 }
 .link-button {
-    border: 1px solid #595959;
+
     cursor: pointer;
     display: inline-block;
     font-size: 1.1em;
