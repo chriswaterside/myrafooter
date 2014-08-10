@@ -39,6 +39,98 @@ div.footer {
   background-color: #DDDDDD;
   border-radius: 10px 10px 10px 10px;
 }
+/* format tables */
+table {
+    border: 1px solid #ddd;
+}
+table {
+    background-color: transparent;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 1em;
+    margin-bottom: 1.5em;
+    max-width: 100%;
+
+}
+table tr:first-child th, table tr:first-child td, table thead:first-child tr:first-child th, table thead:first-child tr:first-child td {
+    border-top: 0 none;
+}
+table tbody tr td, table tbody tr th {
+}
+
+table th {
+    border: 0 none;
+    font-weight: bold;
+}
+table th, table td {
+    border: 1px solid #ddd;
+    line-height: 1.5em;
+    padding: 8px;
+    text-align: left;
+    vertical-align: top;
+}
+table th {
+    background-color: #782327;
+    background-image: -moz-linear-gradient(center top , #782327, #9F2F34);
+    background-repeat: repeat-x;
+    color: #fff;
+}
+table.pantone0110 th {
+    background-color: #D7A900;
+    background-image: -moz-linear-gradient(center top , #D7A900, #FBC200);
+    background-repeat: repeat-x;
+    color: #fff;
+}
+table.pantone0159 th {
+    background-color: #C75B12;
+    background-image: -moz-linear-gradient(center top , #C75B12, #E06614);
+    background-repeat: repeat-x;
+    color: #fff;
+}
+table.pantone0186 th {
+    background-color: #C60C30;
+    background-image: -moz-linear-gradient(center top , #C60C30, #F2224B);
+    background-repeat: repeat-x;
+    color: #fff;
+}
+table.pantone0555 th {
+    background-color: #206C49;
+    background-image: -moz-linear-gradient(center top , #206C49, #2B9163);
+    background-repeat: repeat-x;
+    color: #fff;
+}
+table.pantone0583 th {
+    background-color: #A8B400;
+    background-image: -moz-linear-gradient(center top , #A8B400, #C9D900);
+    background-repeat: repeat-x;
+    color: #fff;
+}
+table.pantone1815 th {
+    background-color: #782327;
+    background-image: -moz-linear-gradient(center top , #782327, #9F2F34);
+    background-repeat: repeat-x;
+    color: #fff;
+}
+table.pantone4485 th {
+    background-color: #5B491F;
+    background-image: -moz-linear-gradient(center top , #5B491F, #82682D);
+    background-repeat: repeat-x;
+    color: #fff;
+}
+table.pantone5565 th {
+    background-color: #8BA69C;
+    background-image: -moz-linear-gradient(center top , #8BA69C, #A3B8B0);
+    background-repeat: repeat-x;
+    color: #fff;
+}
+table.pantone7474 th {
+    background-color: #007A87;
+    background-image: -moz-linear-gradient(center top , #007A87, #00A5B7);
+    background-repeat: repeat-x;
+    color: #fff;
+}
+
+
 /* Print font setting */
 
 body.contentpane {
