@@ -170,6 +170,13 @@ legend.hidelabeltxt {
   padding: 0px;
 }
 /* Modules */
+#col2 .module, #col3 .module {
+    border-radius: 10px 10px 10px 10px;
+    padding: 0px;
+}
+#col2 .module-title,#col3 .module-title {
+    border-radius: 10px 10px 10px 10px;
+}
 
 #col2 div.spramod_pantone0110.module, #col3 div.spramod_pantone0110.module,
 #col2 div.spramod_pantone0159.module, #col3 div.spramod_pantone0159.module,
@@ -185,12 +192,11 @@ legend.hidelabeltxt {
   margin-bottom: 10px;
   margin-left: 6px;
   margin-right: 6px;
-  float: left;
-  clear: both;
   padding: 0px;
   color: #FFFFFF;
   border-style: solid;
   border-width: 3px;
+  width:93%;
 }
 
 #col2 div.spramod_outline0110.module, #col3 div.spramod_outline0110.module,
@@ -207,24 +213,36 @@ legend.hidelabeltxt {
   margin-bottom: 10px;
   margin-left: 6px;
   margin-right: 6px;
-  float: left;
-  clear: both;
   padding: 0px;
   background-color: #FFFFFF;
   border-style: solid;
   border-width: 3px;
+  width:93%
+  }
+
+#col2 div.spramod_heading0110.module, #col3 div.spramod_heading0110.module,
+#col2 div.spramod_heading0159.module, #col3 div.spramod_heading0159.module,
+#col2 div.spramod_heading0186.module, #col3 div.spramod_heading0186.module,
+#col2 div.spramod_heading0555.module, #col3 div.spramod_heading0555.module,
+#col2 div.spramod_heading0583.module, #col3 div.spramod_heading0583.module,
+#col2 div.spramod_heading1815.module, #col3 div.spramod_heading1815.module,
+#col2 div.spramod_heading4485.module, #col3 div.spramod_heading4485.module,
+#col2 div.spramod_heading5565.module, #col3 div.spramod_heading5565.module,
+#col2 div.spramod_heading7474.module, #col3 div.spramod_heading7474.module
+ {
+  border-radius: 10px 10px 10px 10px;
+  margin-bottom: 10px;
+  margin-left: 6px;
+  margin-right: 6px;
+  
+  padding: 0px;
+  color: #000000;
+  border-color:  #F5F5F5;
+  border-style: solid;
+  border-width: 3px;
+  width:93%;
 }
 
-#col2 div.spramod_pantone7474.module div, #col3 div.spramod_pantone7474.module div,
-#col2 div.spramod_heading0110.module div, #col3 div.spramod_heading0110.module div,
-#col2 div.spramod_heading0159.module div, #col3 div.spramod_heading0159.module div,
-#col2 div.spramod_heading0186.module div, #col3 div.spramod_heading0186.module div,
-#col2 div.spramod_heading0555.module div, #col3 div.spramod_heading0555.module div,
-#col2 div.spramod_heading0583.module div, #col3 div.spramod_heading0583.module div,
-#col2 div.spramod_heading1815.module div, #col3 div.spramod_heading1815.module div,
-#col2 div.spramod_heading4485.module div, #col3 div.spramod_heading4485.module div,
-#col2 div.spramod_heading5565.module div, #col3 div.spramod_heading5565.module div,
-#col2 div.spramod_heading7474.module div, #col3 div.spramod_heading7474.module div,
 #col2 div.spramod_outline0110.module div, #col3 div.spramod_outline0110.module div,
 #col2 div.spramod_outline0159.module div, #col3 div.spramod_outline0159.module div,
 #col2 div.spramod_outline0186.module div, #col3 div.spramod_outline0186.module div,
@@ -241,6 +259,44 @@ legend.hidelabeltxt {
   margin: 0;
   float: none;
   background: none;
+}
+#col2 div.spramod_heading0110.module div, #col3 div.spramod_heading0110.module div,
+#col2 div.spramod_heading0159.module div, #col3 div.spramod_heading0159.module div,
+#col2 div.spramod_heading0186.module div, #col3 div.spramod_heading0186.module div,
+#col2 div.spramod_heading0555.module div, #col3 div.spramod_heading0555.module div,
+#col2 div.spramod_heading0583.module div, #col3 div.spramod_heading0583.module div,
+#col2 div.spramod_heading1815.module div, #col3 div.spramod_heading1815.module div,
+#col2 div.spramod_heading4485.module div, #col3 div.spramod_heading4485.module div,
+#col2 div.spramod_heading5565.module div, #col3 div.spramod_heading5565.module div,
+#col2 div.spramod_heading7474.module div, #col3 div.spramod_heading7474.module div  {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 0px;
+  padding-bottom: 5px;
+  margin: 0;
+  float: none;
+  background: none;
+}
+
+#col2 div.spramod_heading0110.module div div, #col3 div.spramod_heading0110.module div div,
+#col2 div.spramod_heading0159.module div div, #col3 div.spramod_heading0159.module div div,
+#col2 div.spramod_heading0186.module div div, #col3 div.spramod_heading0186.module div div,
+#col2 div.spramod_heading0555.module div div, #col3 div.spramod_heading0555.module div div,
+#col2 div.spramod_heading0583.module div div, #col3 div.spramod_heading0583.module div div,
+#col2 div.spramod_heading1815.module div div, #col3 div.spramod_heading1815.module div div,
+#col2 div.spramod_heading4485.module div div, #col3 div.spramod_heading4485.module div div,
+#col2 div.spramod_heading5565.module div div, #col3 div.spramod_heading5565.module div div,
+#col2 div.spramod_heading7474.module div div, #col3 div.spramod_heading7474.module div div,
+#col2 div.spramod_outline0110.module div div, #col3 div.spramod_outline0110.module div div,
+#col2 div.spramod_outline0159.module div div, #col3 div.spramod_outline0159.module div div,
+#col2 div.spramod_outline0186.module div div, #col3 div.spramod_outline0186.module div div,
+#col2 div.spramod_outline0555.module div div, #col3 div.spramod_outline0555.module div div,
+#col2 div.spramod_outline0583.module div div, #col3 div.spramod_outline0583.module div div,
+#col2 div.spramod_outline1815.module div div, #col3 div.spramod_outline1815.module div div,
+#col2 div.spramod_outline4485.module div div, #col3 div.spramod_outline4485.module div div,
+#col2 div.spramod_outline5565.module div div, #col3 div.spramod_outline5565.module div div,
+#col2 div.spramod_outline7474.module div div, #col3 div.spramod_outline7474.module div div {
+    padding: 0px;
 }
 
 #col2 div.spramod_pantone0110.module h3, #col3 div.spramod_pantone0110.module h3,
@@ -275,7 +331,6 @@ legend.hidelabeltxt {
   margin: 0px 0px 0px;
   padding: 5px 12px 5px;
   border-radius: 5px 5px 0px 0px;
-  
   color: #FFFFFF;
   font-size: 125%;
   font-weight: bold;
@@ -443,6 +498,41 @@ legend.hidelabeltxt {
 #col2 div.spramod_pantone7474.module,#col3 div.spramod_pantone7474.module ,
 #col2 div.spramod_pantone7474.module h3,#col3 div.spramod_pantone7474.module h3 {
   background: #007A87;
+}
+#col2 div.spramod_pantone0110.module,#col3 div.spramod_pantone0110.module  {
+   border-color: #D7A900;
+}
+
+#col2 div.spramod_pantone0159.module,#col3 div.spramod_pantone0159.module  {
+  border-color: #C75B12;
+}
+
+#col2 div.spramod_pantone0186.module,#col3 div.spramod_pantone0186.module  {
+  border-color: #C60C30;
+}
+
+#col2 div.spramod_pantone0555.module,#col3 div.spramod_pantone0555.module{
+  border-color: #206C49;
+}
+
+#col2 div.spramod_pantone0583.module,#col3 div.spramod_pantone0583.module  {
+  border-color: #A8B400;
+}
+
+#col2 div.spramod_pantone1815.module,#col3 div.spramod_pantone1815.module  {
+  border-color: #782327;
+}
+
+#col2 div.spramod_pantone4485.module,#col3 div.spramod_pantone4485.module  {
+  border-color: #5B491F;
+}
+
+#col2 div.spramod_pantone5565.module,#col3 div.spramod_pantone5565.module  {
+  border-color: #8BA69C;
+}
+
+#col2 div.spramod_pantone7474.module,#col3 div.spramod_pantone7474.module {
+  border-color: #007A87;
 }
 
 
@@ -753,9 +843,9 @@ a[href$='.xls'] {
 
 /* Set print and email options */
 
-div.btn-group.pull-right {           float:right;
-
-
+div.btn-group.pull-right {
+  float:right;
+  padding:5px;
   background-color: #DDDDDD;
   border-radius: 10px;
 }
