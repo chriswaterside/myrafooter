@@ -16,12 +16,15 @@
 /* pantone7474 '#007A87';           */
 /* ============================== TYPOGRAPHY ============================== */
 
-#nav li span.separator {
-    color: #cfcfcf;
-    display: block;
-    line-height: 30px;
-    padding: 0 10px;
+#rt-top div.rt-block{
+  padding: 0px;
+  margin: 0px;
 }
+.gf-menu {
+  margin-top: 2px;
+}
+
+
 .cancelled {color:#C60C30; text-decoration: line-through;}         
 
 .preformat {
@@ -146,12 +149,7 @@ table.pantone7474 th {
 body.contentpane {
   font-family: Arial, Helvetica, sans-serif;
 }
-.alert-heading {
-color: #CB2327;
-}
-.alert.alert-message {
-color: #DC2327;
-}
+
 /* =============== LAYOUT - OVERALL PAGE =============== */
 /* Hide Jguard footer */
 
@@ -170,23 +168,16 @@ legend.hidelabeltxt {
   padding: 0px;
 }
 /* Modules */
-#col2 .module, #col3 .module {
-    border-radius: 10px 10px 10px 10px;
-    padding: 0px;
-}
-#col2 .module-title,#col3 .module-title {
-    border-radius: 10px 10px 10px 10px;
-}
 
-#col2 div.spramod_pantone0110.module, #col3 div.spramod_pantone0110.module,
-#col2 div.spramod_pantone0159.module, #col3 div.spramod_pantone0159.module,
-#col2 div.spramod_pantone0186.module, #col3 div.spramod_pantone0186.module,
-#col2 div.spramod_pantone0555.module, #col3 div.spramod_pantone0555.module,
-#col2 div.spramod_pantone0583.module, #col3 div.spramod_pantone0583.module,
-#col2 div.spramod_pantone1815.module, #col3 div.spramod_pantone1815.module,
-#col2 div.spramod_pantone4485.module, #col3 div.spramod_pantone4485.module,
-#col2 div.spramod_pantone5565.module, #col3 div.spramod_pantone5565.module,
-#col2 div.spramod_pantone7474.module, #col3 div.spramod_pantone7474.module
+div.ramod_pantone0110,
+div.ramod_pantone0159,
+div.ramod_pantone0186,
+div.ramod_pantone0555,
+div.ramod_pantone0583,
+div.ramod_pantone1815,
+div.ramod_pantone4485,
+div.ramod_pantone5565,
+div.ramod_pantone7474
  {
   border-radius: 10px 10px 10px 10px;
   margin-bottom: 10px;
@@ -199,15 +190,15 @@ legend.hidelabeltxt {
   width:93%;
 }
 
-#col2 div.spramod_outline0110.module, #col3 div.spramod_outline0110.module,
-#col2 div.spramod_outline0159.module, #col3 div.spramod_outline0159.module,
-#col2 div.spramod_outline0186.module, #col3 div.spramod_outline0186.module,
-#col2 div.spramod_outline0555.module, #col3 div.spramod_outline0555.module,
-#col2 div.spramod_outline0583.module, #col3 div.spramod_outline0583.module,
-#col2 div.spramod_outline1815.module, #col3 div.spramod_outline1815.module,
-#col2 div.spramod_outline4485.module, #col3 div.spramod_outline4485.module,
-#col2 div.spramod_outline5565.module, #col3 div.spramod_outline5565.module,
-#col2 div.spramod_outline7474.module, #col3 div.spramod_outline7474.module
+div.ramod_outline0110,
+div.ramod_outline0159,
+div.ramod_outline0186,
+div.ramod_outline0555,
+div.ramod_outline0583,
+div.ramod_outline1815,
+div.ramod_outline4485,
+div.ramod_outline5565,
+div.ramod_outline7474
  {
   border-radius: 10px 10px 10px 10px;
   margin-bottom: 10px;
@@ -220,15 +211,15 @@ legend.hidelabeltxt {
   width:93%
   }
 
-#col2 div.spramod_heading0110.module, #col3 div.spramod_heading0110.module,
-#col2 div.spramod_heading0159.module, #col3 div.spramod_heading0159.module,
-#col2 div.spramod_heading0186.module, #col3 div.spramod_heading0186.module,
-#col2 div.spramod_heading0555.module, #col3 div.spramod_heading0555.module,
-#col2 div.spramod_heading0583.module, #col3 div.spramod_heading0583.module,
-#col2 div.spramod_heading1815.module, #col3 div.spramod_heading1815.module,
-#col2 div.spramod_heading4485.module, #col3 div.spramod_heading4485.module,
-#col2 div.spramod_heading5565.module, #col3 div.spramod_heading5565.module,
-#col2 div.spramod_heading7474.module, #col3 div.spramod_heading7474.module
+div.ramod_heading0110,
+div.ramod_heading0159,
+div.ramod_heading0186,
+div.ramod_heading0555,
+div.ramod_heading0583,
+div.ramod_heading1815,
+div.ramod_heading4485,
+div.ramod_heading5565,
+div.ramod_heading7474
  {
   border-radius: 10px 10px 10px 10px;
   margin-bottom: 10px;
@@ -243,15 +234,15 @@ legend.hidelabeltxt {
   width:93%;
 }
 
-#col2 div.spramod_outline0110.module div, #col3 div.spramod_outline0110.module div,
-#col2 div.spramod_outline0159.module div, #col3 div.spramod_outline0159.module div,
-#col2 div.spramod_outline0186.module div, #col3 div.spramod_outline0186.module div,
-#col2 div.spramod_outline0555.module div, #col3 div.spramod_outline0555.module div,
-#col2 div.spramod_outline0583.module div, #col3 div.spramod_outline0583.module div,
-#col2 div.spramod_outline1815.module div, #col3 div.spramod_outline1815.module div,
-#col2 div.spramod_outline4485.module div, #col3 div.spramod_outline4485.module div,
-#col2 div.spramod_outline5565.module div, #col3 div.spramod_outline5565.module div,
-#col2 div.spramod_outline7474.module div, #col3 div.spramod_outline7474.module div {
+div.ramod_outline0110 div,
+div.ramod_outline0159 div,
+div.ramod_outline0186 div,
+div.ramod_outline0555 div,
+div.ramod_outline0583 div,
+div.ramod_outline1815 div,
+div.ramod_outline4485 div,
+div.ramod_outline5565 div,
+div.ramod_outline7474 divfd {
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 0px;
@@ -260,15 +251,15 @@ legend.hidelabeltxt {
   float: none;
   background: none;
 }
-#col2 div.spramod_heading0110.module div, #col3 div.spramod_heading0110.module div,
-#col2 div.spramod_heading0159.module div, #col3 div.spramod_heading0159.module div,
-#col2 div.spramod_heading0186.module div, #col3 div.spramod_heading0186.module div,
-#col2 div.spramod_heading0555.module div, #col3 div.spramod_heading0555.module div,
-#col2 div.spramod_heading0583.module div, #col3 div.spramod_heading0583.module div,
-#col2 div.spramod_heading1815.module div, #col3 div.spramod_heading1815.module div,
-#col2 div.spramod_heading4485.module div, #col3 div.spramod_heading4485.module div,
-#col2 div.spramod_heading5565.module div, #col3 div.spramod_heading5565.module div,
-#col2 div.spramod_heading7474.module div, #col3 div.spramod_heading7474.module div  {
+div.ramod_heading0110 div,
+div.ramod_heading0159 div,
+div.ramod_heading0186 div,
+div.ramod_heading0555 div,
+div.ramod_heading0583 div,
+div.ramod_heading1815 div,
+div.ramod_heading4485 div,
+div.ramod_heading5565 div,
+div.ramod_heading7474 div  {
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 0px;
@@ -278,36 +269,37 @@ legend.hidelabeltxt {
   background: none;
 }
 
-#col2 div.spramod_heading0110.module div div, #col3 div.spramod_heading0110.module div div,
-#col2 div.spramod_heading0159.module div div, #col3 div.spramod_heading0159.module div div,
-#col2 div.spramod_heading0186.module div div, #col3 div.spramod_heading0186.module div div,
-#col2 div.spramod_heading0555.module div div, #col3 div.spramod_heading0555.module div div,
-#col2 div.spramod_heading0583.module div div, #col3 div.spramod_heading0583.module div div,
-#col2 div.spramod_heading1815.module div div, #col3 div.spramod_heading1815.module div div,
-#col2 div.spramod_heading4485.module div div, #col3 div.spramod_heading4485.module div div,
-#col2 div.spramod_heading5565.module div div, #col3 div.spramod_heading5565.module div div,
-#col2 div.spramod_heading7474.module div div, #col3 div.spramod_heading7474.module div div,
-#col2 div.spramod_outline0110.module div div, #col3 div.spramod_outline0110.module div div,
-#col2 div.spramod_outline0159.module div div, #col3 div.spramod_outline0159.module div div,
-#col2 div.spramod_outline0186.module div div, #col3 div.spramod_outline0186.module div div,
-#col2 div.spramod_outline0555.module div div, #col3 div.spramod_outline0555.module div div,
-#col2 div.spramod_outline0583.module div div, #col3 div.spramod_outline0583.module div div,
-#col2 div.spramod_outline1815.module div div, #col3 div.spramod_outline1815.module div div,
-#col2 div.spramod_outline4485.module div div, #col3 div.spramod_outline4485.module div div,
-#col2 div.spramod_outline5565.module div div, #col3 div.spramod_outline5565.module div div,
-#col2 div.spramod_outline7474.module div div, #col3 div.spramod_outline7474.module div div {
-    padding: 0px;
+div.ramod_heading0110 div-content,
+div.ramod_heading0159 div-content,
+div.ramod_heading0186 div-content,
+div.ramod_heading0555 div-content,
+div.ramod_heading0583 div-content,
+div.ramod_heading1815 div-content,
+div.ramod_heading4485 div-content,
+div.ramod_heading5565 div-content,
+div.ramod_heading7474 div-content,
+div.ramod_outline0110 div-content,
+div.ramod_outline0159 div-content,
+div.ramod_outline0186 div-content,
+div.ramod_outline0555 div-content,
+div.ramod_outline0583 div-content,
+div.ramod_outline1815 div-content,
+div.ramod_outline4485 div-content,
+div.ramod_outline5565 div-content,
+div.ramod_outline7474 div-content {
+    margin: 10px;
+    padding: 15px;
 }
 
-#col2 div.spramod_pantone0110.module h3, #col3 div.spramod_pantone0110.module h3,
-#col2 div.spramod_pantone0159.module h3, #col3 div.spramod_pantone0159.module h3,
-#col2 div.spramod_pantone0186.module h3, #col3 div.spramod_pantone0186.module h3,
-#col2 div.spramod_pantone0555.module h3, #col3 div.spramod_pantone0555.module h3,
-#col2 div.spramod_pantone0583.module h3, #col3 div.spramod_pantone0583.module h3,
-#col2 div.spramod_pantone1815.module h3, #col3 div.spramod_pantone1815.module h3,
-#col2 div.spramod_pantone4485.module h3, #col3 div.spramod_pantone4485.module h3,
-#col2 div.spramod_pantone5565.module h3, #col3 div.spramod_pantone5565.module h3,
-#col2 div.spramod_pantone7474.module h3, #col3 div.spramod_pantone7474.module h3  {
+div.ramod_pantone0110 h3,
+div.ramod_pantone0159 h3,
+div.ramod_pantone0186 h3,
+div.ramod_pantone0555 h3,
+div.ramod_pantone0583 h3,
+div.ramod_pantone1815 h3,
+div.ramod_pantone4485 h3,
+div.ramod_pantone5565 h3,
+div.ramod_pantone7474 h3  {
   margin: 0px 0px 0px;
   padding: 5px 12px 5px;
   border-radius: 5px 5px 0px 0px;
@@ -319,34 +311,33 @@ legend.hidelabeltxt {
   background: none;
 }
 
-#col2 div.spramod_outline0110.module h3, #col3 div.spramod_outline0110.module h3,
-#col2 div.spramod_outline0159.module h3, #col3 div.spramod_outline0159.module h3,
-#col2 div.spramod_outline0186.module h3, #col3 div.spramod_outline0186.module h3,
-#col2 div.spramod_outline0555.module h3, #col3 div.spramod_outline0555.module h3,
-#col2 div.spramod_outline0583.module h3, #col3 div.spramod_outline0583.module h3,
-#col2 div.spramod_outline1815.module h3, #col3 div.spramod_outline1815.module h3,
-#col2 div.spramod_outline4485.module h3, #col3 div.spramod_outline4485.module h3,
-#col2 div.spramod_outline5565.module h3, #col3 div.spramod_outline5565.module h3,
-#col2 div.spramod_outline7474.module h3, #col3 div.spramod_outline7474.module h3  {
-  margin: 0px 0px 0px;
-  padding: 5px 12px 5px;
+div.ramod_outline0110 h3,
+div.ramod_outline0159 h3,
+div.ramod_outline0186 h3,
+div.ramod_outline0555 h3,
+div.ramod_outline0583 h3,
+div.ramod_outline1815 h3,
+div.ramod_outline4485 h3,
+div.ramod_outline5565 h3,
+div.ramod_outline7474 h3  {
+
+  padding: 10px;
   border-radius: 5px 5px 0px 0px;
   color: #FFFFFF;
-  font-size: 125%;
-  font-weight: bold;
+
   text-transform: none;
   text-shadow: none;
   background: none;
 }
-#col2 div.spramod_heading0110.module h3, #col3 div.spramod_heading0110.module h3,
-#col2 div.spramod_heading0159.module h3, #col3 div.spramod_heading0159.module h3,
-#col2 div.spramod_heading0186.module h3, #col3 div.spramod_heading0186.module h3,
-#col2 div.spramod_heading0555.module h3, #col3 div.spramod_heading0555.module h3,
-#col2 div.spramod_heading0583.module h3, #col3 div.spramod_heading0583.module h3,
-#col2 div.spramod_heading1815.module h3, #col3 div.spramod_heading1815.module h3,
-#col2 div.spramod_heading4485.module h3, #col3 div.spramod_heading4485.module h3,
-#col2 div.spramod_heading5565.module h3, #col3 div.spramod_heading5565.module h3,
-#col2 div.spramod_heading7474.module h3, #col3 div.spramod_heading7474.module h3  {
+div.ramod_heading0110 h3,
+div.ramod_heading0159 h3,
+div.ramod_heading0186 h3,
+div.ramod_heading0555 h3,
+div.ramod_heading0583 h3,
+div.ramod_heading1815 h3,
+div.ramod_heading4485 h3,
+div.ramod_heading5565 h3,
+div.ramod_heading7474 h3  {
   margin: 0px 0px 0px;
   padding: 5px 12px 5px;
   border-radius: 5px 5px 5px 5px;
@@ -357,181 +348,176 @@ legend.hidelabeltxt {
   text-shadow: none;
   background: none;
 }
+div.customramod_outline7474 {padding-left:15px;}
+h3.title {font-size:21px;
+line-height: 25px;
+    margin-bottom: 10px;}
 
 /* set heading colours */
-#col2 div.spramod_heading0110.module h3,#col3 div.spramod_heading0110.module h3 {
+div.ramod_heading0110 h3 {
   background: #D7A900;
 }
-#col2 div.spramod_heading0159.module h3,#col3 div.spramod_heading0159.module h3 {
+div.ramod_heading0159 h3 {
   background: #C75B12;
 }
-#col2 div.spramod_heading0186.module h3,#col3 div.spramod_heading0186.module h3 {
+div.ramod_heading0186 h3 {
   background: #C60C30;
 }
-#col2 div.spramod_heading0555.module h3,#col3 div.spramod_heading0555.module h3 {
+div.ramod_heading0555 h3 {
   background: #206C49;
 }
-#col2 div.spramod_heading0583.module h3,#col3 div.spramod_heading0583.module h3 {
+div.ramod_heading0583 h3 {
   background: #A8B400;
 }
-#col2 div.spramod_heading1815.module h3,#col3 div.spramod_heading1815.module h3 {
+div.ramod_heading1815 h3 {
   background: #782327;
 }
-#col2 div.spramod_heading4485.module h3,#col3 div.spramod_heading4485.module h3 {
+div.ramod_heading4485 h3 {
   background: #5B491F;
 }
-#col2 div.spramod_heading5565.module h3,#col3 div.spramod_heading5565.module h3 {
+div.ramod_heading5565 h3 {
   background: #8BA69C;
 }
-#col2 div.spramod_heading7474.module h3,#col3 div.spramod_heading7474.module h3 {
+div.ramod_heading7474 h3 {
   background: #007A87;
 }
 
 /* outline set colours*/
 
-#col2 div.spramod_outline0110.module,#col3 div.spramod_outline0110.module {
-  border-color: #D7A900;
+div.ramod_outline0110 {
+  background: #D7A900;
 }
-#col2 div.spramod_outline0110.module h3,#col3 div.spramod_outline0110.module h3 {
+div.ramod_outline0110 h3 {
   background: #D7A900;
 }
 
-#col2 div.spramod_outline0159.module,#col3 div.spramod_outline0159.module {
-  border-color: #C75B12;
+div.ramod_outline0159{
+  background: #C75B12;
 }
-#col2 div.spramod_outline0159.module h3,#col3 div.spramod_outline0159.module h3 {
+div.ramod_outline0159 h3 {
   background: #C75B12;
 }
 
-#col2 div.spramod_outline0186.module,#col3 div.spramod_outline0186.module {
+div.ramod_outline0186 {
   border-color: #C60C30;
 }
-#col2 div.spramod_outline0186.module h3,#col3 div.spramod_outline0186.module h3 {
+div.ramod_outline0186 h3 {
   background: #C60C30;
 }
 
-#col2 div.spramod_outline0555.module,#col3 div.spramod_outline0555.module {
+div.ramod_outline0555{
   border-color: #206C49;
 }
-#col2 div.spramod_outline0555.module h3,#col3 div.spramod_outline0555.module h3 {
+div.ramod_outline0555 h3 {
   background: #206C49;
 }
 
-#col2 div.spramod_outline0583.module,#col3 div.spramod_outline0583.module {
+div.ramod_outline0583 {
   border-color: #A8B400;
 }
-#col2 div.spramod_outline0583.module h3,#col3 div.spramod_outline0583.module h3 {
+div.ramod_outline0583 h3 {
   background: #A8B400;
 }
 
-#col2 div.spramod_outline1815.module,#col3 div.spramod_outline1815.module {
+div.ramod_outline1815 {
   border-color: #782327;
 }
-#col2 div.spramod_outline1815.module h3,#col3 div.spramod_outline1815.module h3 {
+ div.ramod_outline1815 h3 {
   background: #782327;
 }
 
-#col2 div.spramod_outline4485.module,#col3 div.spramod_outline4485.module {
+div.ramod_outline4485 {
   border-color: #5B491F;
 }
-#col2 div.spramod_outline4485.module h3,#col3 div.spramod_outline4485.module h3 {
+div.ramod_outline4485 h3 {
   background: #5B491F;
 }
 
-#col2 div.spramod_outline5565.module,#col3 div.spramod_outline5565.module {
+div.ramod_outline5565 {
   border-color: #8BA69C;
 }
-#col2 div.spramod_outline5565.module h3,#col3 div.spramod_outline5565.module h3 {
+div.ramod_outline5565 h3 {
   background: #8BA69C;
 }
 
-#col2 div.spramod_outline7474.module,#col3 div.spramod_outline7474.module {
+div.ramod_outline7474{
   border-color: #007A87;
 }
-#col2 div.spramod_outline7474.module h3,#col3 div.spramod_outline7474.module h3 {
+div.ramod_outline7474 h3 {
   background: #007A87;
 }
 
 
 /* pantone set colours*/
 
-#col2 div.spramod_pantone0110.module,#col3 div.spramod_pantone0110.module ,
-#col2 div.spramod_pantone0110.module h3,#col3 div.spramod_pantone0110.module h3 {
+div.ramod_pantone0110, div.ramod_pantone0110 h3 {
   background: #D7A900;
 }
 
-#col2 div.spramod_pantone0159.module,#col3 div.spramod_pantone0159.module ,
-#col2 div.spramod_pantone0159.module h3,#col3 div.spramod_pantone0159.module h3 {
+div.ramod_pantone0159, div.ramod_pantone0159 h3 {
   background: #C75B12;
 }
 
-#col2 div.spramod_pantone0186.module,#col3 div.spramod_pantone0186.module ,
-#col2 div.spramod_pantone0186.module h3,#col3 div.spramod_pantone0186.module h3 {
+div.ramod_pantone0186, div.ramod_pantone0186 h3 {
   background: #C60C30;
 }
 
-#col2 div.spramod_pantone0555.module,#col3 div.spramod_pantone0555.module ,
-#col2 div.spramod_pantone0555.module h3,#col3 div.spramod_pantone0555.module h3 {
+div.ramod_pantone0555, div.ramod_pantone0555 h3 {
   background: #206C49;
 }
 
-#col2 div.spramod_pantone0583.module,#col3 div.spramod_pantone0583.module ,
-#col2 div.spramod_pantone0583.module h3,#col3 div.spramod_pantone0583.module h3 {
+div.ramod_pantone0583, div.ramod_pantone0583 h3 {
   background: #A8B400;
 }
 
-#col2 div.spramod_pantone1815.module,#col3 div.spramod_pantone1815.module ,
-#col2 div.spramod_pantone1815.module h3,#col3 div.spramod_pantone1815.module h3 {
+div.ramod_pantone1815, div.ramod_pantone1815 h3 {
   background: #782327;
 }
 
-#col2 div.spramod_pantone4485.module,#col3 div.spramod_pantone4485.module ,
-#col2 div.spramod_pantone4485.module h3,#col3 div.spramod_pantone4485.module h3 {
+div.ramod_pantone4485, div.ramod_pantone4485 h3 {
   background: #5B491F;
 }
 
-#col2 div.spramod_pantone5565.module,#col3 div.spramod_pantone5565.module ,
-#col2 div.spramod_pantone5565.module h3,#col3 div.spramod_pantone5565.module h3 {
+div.ramod_pantone5565, div.ramod_pantone5565 h3 {
   background: #8BA69C;
 }
 
-#col2 div.spramod_pantone7474.module,#col3 div.spramod_pantone7474.module ,
-#col2 div.spramod_pantone7474.module h3,#col3 div.spramod_pantone7474.module h3 {
+div.ramod_pantone7474, div.ramod_pantone7474 h3 {
   background: #007A87;
 }
-#col2 div.spramod_pantone0110.module,#col3 div.spramod_pantone0110.module  {
+div.ramod_pantone0110  {
    border-color: #D7A900;
 }
 
-#col2 div.spramod_pantone0159.module,#col3 div.spramod_pantone0159.module  {
+div.ramod_pantone0159  {
   border-color: #C75B12;
 }
 
-#col2 div.spramod_pantone0186.module,#col3 div.spramod_pantone0186.module  {
+div.ramod_pantone0186  {
   border-color: #C60C30;
 }
 
-#col2 div.spramod_pantone0555.module,#col3 div.spramod_pantone0555.module{
+div.ramod_pantone0555 {
   border-color: #206C49;
 }
 
-#col2 div.spramod_pantone0583.module,#col3 div.spramod_pantone0583.module  {
+div.ramod_pantone0583  {
   border-color: #A8B400;
 }
 
-#col2 div.spramod_pantone1815.module,#col3 div.spramod_pantone1815.module  {
+div.ramod_pantone1815  {
   border-color: #782327;
 }
 
-#col2 div.spramod_pantone4485.module,#col3 div.spramod_pantone4485.module  {
+div.ramod_pantone4485  {
   border-color: #5B491F;
 }
 
-#col2 div.spramod_pantone5565.module,#col3 div.spramod_pantone5565.module  {
+div.ramod_pantone5565  {
   border-color: #8BA69C;
 }
 
-#col2 div.spramod_pantone7474.module,#col3 div.spramod_pantone7474.module {
+div.ramod_pantone7474 {
   border-color: #007A87;
 }
 
