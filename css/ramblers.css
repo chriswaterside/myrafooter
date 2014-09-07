@@ -796,3 +796,20 @@ dl.article-info dt{
     margin-left: -5px;
     top: 0;
 }
+
+/* bottom menu */
+#rt-bottom .rt-container   {
+border-radius: 10px;
+	background-color: #333333;
+	color: #FFFFFF;
+}
+#rt-bottom  a {
+	color: #FFFFFF;
+}
+#rt-bottom  a:hover {
+	background-color: #333333;
+	color: #AAAAAA;
+}
+#rt-bottom h1,#rt-bottom  h2,#rt-bottom  h3,#rt-bottom  h4,#rt-bottom  h5,#rt-bottom  h6 {
+    color: #FFFFFF;
+}
