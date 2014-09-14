@@ -9,7 +9,10 @@
 <authorUrl>www.ramblers-webs.org.uk</authorUrl>
 <version>1.2</version>
 <description>This module displays fully customizable footer module for Ramblers branding</description>
-<files>
+	<updateservers>
+		<server type="extension" name="Ramblers Footer Module" priority="1">http://updates.ramblers-webs.org.uk/rafooter.xml</server>
+	</updateservers>
+	<files>
 	<filename >mod_rafooter.php</filename>
 	<folder module="mod_rafooter">tmpl</folder>
 	<folder>images</folder>
@@ -41,4 +44,5 @@
 		</fieldset>
 	</fields>
 </config>
+
 </extension>
