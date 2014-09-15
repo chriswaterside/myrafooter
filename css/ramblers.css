@@ -21,6 +21,10 @@
   padding: 0px;
   margin: 0px;
 }
+#rt-breadcrumbs .rt-block {
+    padding: 5px 15px 5px 15px;
+    margin: 7px 10px 5px 10px}
+
 .gf-menu {
   margin-top: 2px;
 }
@@ -182,8 +186,6 @@ legend.hidelabeltxt {
 }
 /* Modules */
 
-.module-content div {padding-left:15px;padding-right:10px;}
-
 .module-title h2.title {
     font-size:160%;
     text-transform: none;
@@ -205,6 +207,7 @@ div.ramod_pantone7474
   margin-bottom: 10px;
   margin-left: 6px;
   margin-right: 6px;
+  margin-top: 15px;
   padding: 0px;
   color: #FFFFFF;
   border-style: solid;
@@ -226,10 +229,11 @@ div.ramod_outline7474
   margin-bottom: 10px;
   margin-left: 6px;
   margin-right: 6px;
+  margin-top: 15px;
   padding: 0px;
   background-color: #FFFFFF;
   border-style: solid;
-  border-width: 3px;
+  border-width: 2px;
 
   }
 
@@ -247,7 +251,7 @@ div.ramod_heading7474
   margin-bottom: 10px;
   margin-left: 6px;
   margin-right: 6px;
-
+  margin-top: 15px;
   padding: 0px;
   color: #000000;
   border-color:  #F5F5F5;
@@ -275,26 +279,35 @@ div.ramod_heading7474 div  {
   background: none;
 }
 
-div.ramod_heading0110 div-content,
-div.ramod_heading0159 div-content,
-div.ramod_heading0186 div-content,
-div.ramod_heading0555 div-content,
-div.ramod_heading0583 div-content,
-div.ramod_heading1815 div-content,
-div.ramod_heading4485 div-content,
-div.ramod_heading5565 div-content,
-div.ramod_heading7474 div-content,
-div.ramod_outline0110 div-content,
-div.ramod_outline0159 div-content,
-div.ramod_outline0186 div-content,
-div.ramod_outline0555 div-content,
-div.ramod_outline0583 div-content,
-div.ramod_outline1815 div-content,
-div.ramod_outline4485 div-content,
-div.ramod_outline5565 div-content,
-div.ramod_outline7474 div-content {
-    margin: 10px;
-    padding: 15px;
+div.ramod_pantone0110 .module-content,
+div.ramod_pantone0159 .module-content,
+div.ramod_pantone0186 .module-content,
+div.ramod_pantone0555 .module-content,
+div.ramod_pantone0583 .module-content,
+div.ramod_pantone1815 .module-content,
+div.ramod_pantone4485 .module-content,
+div.ramod_pantone5565 .module-content,
+div.ramod_pantone7474 .module-content ,
+div.ramod_heading0110 .module-content,
+div.ramod_heading0159 .module-content,
+div.ramod_heading0186 .module-content,
+div.ramod_heading0555 .module-content,
+div.ramod_heading0583 .module-content,
+div.ramod_heading1815 .module-content,
+div.ramod_heading4485 .module-content,
+div.ramod_heading5565 .module-content,
+div.ramod_heading7474 .module-content,
+div.ramod_outline0110 .module-content,
+div.ramod_outline0159 .module-content,
+div.ramod_outline0186 .module-content,
+div.ramod_outline0555 .module-content,
+div.ramod_outline0583 .module-content,
+div.ramod_outline1815 .module-content,
+div.ramod_outline4485 .module-content,
+div.ramod_outline5565 .module-content,
+div.ramod_outline7474 .module-content {
+    margin-left: 10px;
+    margin-right:10px;
 }
 
 div.ramod_pantone0110 h2,
