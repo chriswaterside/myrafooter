@@ -7,7 +7,7 @@
 <license>This extension in released under the GNU/GPL License</license>
 <authorEmail>webmaster@ramblers-webs.org.uk</authorEmail>
 <authorUrl>www.ramblers-webs.org.uk</authorUrl>
-<version>1.4.0</version>
+<version>1.5.0</version>
 <description>This module displays fully customizable footer module for Ramblers branding</description>
 	<updateservers>
 		<server type="extension" name="Ramblers Footer Module" priority="1">http://updates.ramblers-webs.org.uk/rafooter.xml</server>
@@ -28,7 +28,11 @@
 			<field name="ramblerswebs" type="radio" default="1" label="Display Ramblers-webs hosting">
 		            <option value="1">Enable</option>
 		            <option value="0">Disable</option>
-		    </field>
+                        </field>
+			<field name="footerstyle" type="radio" default="0" label="Display Ramblers.org.uk style footer">
+		            <option value="1">Enable</option>
+		            <option value="0">Disable</option>
+                        </field>
 		</fieldset>
 		<fieldset name="advanced">
 			<field name="layout" type="modulelayout" label="JFIELD_ALT_LAYOUT_LABEL" description="JFIELD_ALT_MODULE_LAYOUT_DESC" />
