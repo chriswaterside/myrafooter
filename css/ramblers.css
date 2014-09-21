@@ -18,15 +18,15 @@
 
 /* fixes to Gantry formatting       */
 #rt-top div.rt-block{
-  padding: 0px;
-  margin: 0px;
+    padding: 0px;
+    margin: 0px;
 }
 #rt-breadcrumbs .rt-block {
     padding: 5px 15px 5px 15px;
     margin: 7px 10px 5px 10px}
 
 .gf-menu {
-  margin-top: 2px;
+    margin-top: 2px;
 }
 #rt-breadcrumbs a:after {
     content:  url(../images/icons/forward.png);
@@ -55,8 +55,8 @@
 }
 
 div#rt-copyright {
-  font-size: 0.75em;
-  background-color: #C5C5C5;
+    font-size: 0.75em;
+    background-color: #C5C5C5;
 }
 /* format tables */
 table {
@@ -75,12 +75,12 @@ table tr:first-child th, table tr:first-child td, table thead:first-child tr:fir
     border-top: 0 none;
 }
 table tbody tr.cat-list-row1 {
-  background-color: #DDDDDD
+    background-color: #DDDDDD
 }
 table.category th a.hasTooltip {
     font-weight: bold;
     color: #FFFFFF;
-  text-decoration:underline
+    text-decoration:underline
 }
 
 
@@ -102,61 +102,61 @@ table th {
     background-color: #782327;
     background-image: -moz-linear-gradient(center top , #782327, #9F2F34);
     background-repeat: repeat-x;
-    color: #fff;
+    color: #000000;
 }
 table.pantone0110 th {
     background-color: #D7A900;
     background-image: -moz-linear-gradient(center top , #D7A900, #FBC200);
     background-repeat: repeat-x;
-    color: #fff;
+    color: #000000;
 }
 table.pantone0159 th {
     background-color: #C75B12;
     background-image: -moz-linear-gradient(center top , #C75B12, #E06614);
     background-repeat: repeat-x;
-    color: #fff;
+    color: #000000;
 }
 table.pantone0186 th {
     background-color: #C60C30;
     background-image: -moz-linear-gradient(center top , #C60C30, #F2224B);
     background-repeat: repeat-x;
-    color: #fff;
+    color: #000000;
 }
 table.pantone0555 th {
     background-color: #206C49;
     background-image: -moz-linear-gradient(center top , #206C49, #2B9163);
     background-repeat: repeat-x;
-    color: #fff;
+    color: #000000;
 }
 table.pantone0583 th {
     background-color: #A8B400;
     background-image: -moz-linear-gradient(center top , #A8B400, #C9D900);
     background-repeat: repeat-x;
-    color: #fff;
+    color: #000000;
 }
 table.pantone1815 th {
     background-color: #782327;
     background-image: -moz-linear-gradient(center top , #782327, #9F2F34);
     background-repeat: repeat-x;
-    color: #fff;
+    color: #000000;
 }
 table.pantone4485 th {
     background-color: #5B491F;
     background-image: -moz-linear-gradient(center top , #5B491F, #82682D);
     background-repeat: repeat-x;
-    color: #fff;
+    color: #000000;
 }
 table.pantone5565 th {
     background-color: #8BA69C;
     background-image: -moz-linear-gradient(center top , #8BA69C, #A3B8B0);
     background-repeat: repeat-x;
-    color: #fff;
+    color: #000000;
 }
 table.pantone7474 th {
     background-color: #007A87;
     background-image: -moz-linear-gradient(center top , #007A87, #00A5B7);
     background-repeat: repeat-x;
-    color: #fff;
+    color: #000000;
 }
 
 
@@ -170,18 +170,18 @@ body.contentpane {
 /* Hide Jguard footer */
 
 span#sgfooter {
-  display: none;
+    display: none;
 }
 /* Hide text */
 
 legend.hidelabeltxt {
-  display: none;
+    display: none;
 }
 /* class to hide sections, in particular header top and social icons*/
 
 .ramblers-remove {
-  display: none;
-  padding: 0px;
+    display: none;
+    padding: 0px;
 }
 /* Modules */
 
@@ -201,17 +201,17 @@ div.ramod_pantone1815,
 div.ramod_pantone4485,
 div.ramod_pantone5565,
 div.ramod_pantone7474
- {
-  border-radius: 10px 10px 10px 10px;
-  margin-bottom: 10px;
-  margin-left: 6px;
-  margin-right: 6px;
-  margin-top: 15px;
-  padding: 0px;
-  color: #FFFFFF;
-  border-style: solid;
-  border-width: 3px;
-  width:93%;
+{
+    border-radius: 10px 10px 10px 10px;
+    margin-bottom: 10px;
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-top: 15px;
+    padding: 0px;
+    color: #FFFFFF;
+    border-style: solid;
+    border-width: 3px;
+    width:93%;
 }
 
 div.ramod_outline0110,
@@ -223,18 +223,18 @@ div.ramod_outline1815,
 div.ramod_outline4485,
 div.ramod_outline5565,
 div.ramod_outline7474
- {
-  border-radius: 10px 10px 10px 10px;
-  margin-bottom: 10px;
-  margin-left: 6px;
-  margin-right: 6px;
-  margin-top: 15px;
-  padding: 0px;
-  background-color: #FFFFFF;
-  border-style: solid;
-  border-width: 2px;
+{
+    border-radius: 10px 10px 10px 10px;
+    margin-bottom: 10px;
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-top: 15px;
+    padding: 0px;
+    background-color: #FFFFFF;
+    border-style: solid;
+    border-width: 2px;
 
-  }
+}
 
 div.ramod_heading0110,
 div.ramod_heading0159,
@@ -245,18 +245,18 @@ div.ramod_heading1815,
 div.ramod_heading4485,
 div.ramod_heading5565,
 div.ramod_heading7474
- {
-  border-radius: 10px 10px 10px 10px;
-  margin-bottom: 10px;
-  margin-left: 6px;
-  margin-right: 6px;
-  margin-top: 15px;
-  padding: 0px;
-  color: #000000;
-  border-color:  #F5F5F5;
-  border-style: solid;
-  border-width: 3px;
-  width:93%;
+{
+    border-radius: 10px 10px 10px 10px;
+    margin-bottom: 10px;
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-top: 15px;
+    padding: 0px;
+    color: #000000;
+    border-color:  #F5F5F5;
+    border-style: solid;
+    border-width: 3px;
+    width:93%;
 }
 
 
@@ -269,13 +269,13 @@ div.ramod_heading1815 div,
 div.ramod_heading4485 div,
 div.ramod_heading5565 div,
 div.ramod_heading7474 div  {
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 0px;
-  padding-bottom: 5px;
-  margin: 0;
-  float: none;
-  background: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    margin: 0;
+    float: none;
+    background: none;
 }
 
 div.ramod_pantone0110 .module-content,
@@ -318,11 +318,11 @@ div.ramod_pantone1815 h2,
 div.ramod_pantone4485 h2,
 div.ramod_pantone5565 h2,
 div.ramod_pantone7474 h2  {
-  margin: 0px 0px 0px;
-  padding: 5px 12px 5px;
-  border-radius: 5px 5px 0px 0px;
-  color: #FFFFFF;
-  background: none;
+    margin: 0px 0px 0px;
+    padding: 5px 12px 5px;
+    border-radius: 5px 5px 0px 0px;
+    color: #FFFFFF;
+    background: none;
 }
 
 div.ramod_outline0110 h2,
@@ -335,10 +335,10 @@ div.ramod_outline4485 h2,
 div.ramod_outline5565 h2,
 div.ramod_outline7474 h2  {
 
-  padding: 10px;
-  border-radius: 5px 5px 0px 0px;
-  color: #FFFFFF;
-  background: none;
+    padding: 10px;
+    border-radius: 5px 5px 0px 0px;
+    color: #FFFFFF;
+    background: none;
 }
 div.ramod_heading0110 h2,
 div.ramod_heading0159 h2,
@@ -349,11 +349,11 @@ div.ramod_heading1815 h2,
 div.ramod_heading4485 h2,
 div.ramod_heading5565 h2,
 div.ramod_heading7474 h2  {
-  margin: 0px 0px 0px;
-  padding: 5px 12px 5px;
-  border-radius: 5px 5px 5px 5px;
-  color: #FFFFFF;
-  background: none;
+    margin: 0px 0px 0px;
+    padding: 5px 12px 5px;
+    border-radius: 5px 5px 5px 5px;
+    color: #FFFFFF;
+    background: none;
 }
 
 
@@ -393,7 +393,7 @@ div.ramod_outline7474 h2 {  background: #007A87;}
 /* pantone set colours*/
 
 div.ramod_pantone0110, div.ramod_pantone0110 h2 {
-  background: #D7A900;
+    background: #D7A900;
 }
 
 div.ramod_pantone0159, div.ramod_pantone0159 h2 {  background: #C75B12;}
@@ -577,81 +577,81 @@ a[href$='.rar'],
 a[href$='.gzip'],
 a[href$='.bzip'],
 a[href$='.ace'] {
-	padding-right: 20px;
-	padding-bottom: 1px;
-	background: url(../images/icons/icons-ext.png) no-repeat right -86px;
+    padding-right: 20px;
+    padding-bottom: 1px;
+    background: url(../images/icons/icons-ext.png) no-repeat right -86px;
 }
 
 a[href^="callto:"] {
-	padding-right: 20px;
-	padding-bottom: 1px;
-	background: url(../images/icons/icons-ext.png) no-repeat right -172px;
+    padding-right: 20px;
+    padding-bottom: 1px;
+    background: url(../images/icons/icons-ext.png) no-repeat right -172px;
 }
 
 a[href$='.css'] {
-	padding-right: 20px;
-	padding-bottom: 1px;
-	background: url(../images/icons/icons-ext.png) no-repeat right -258px;
+    padding-right: 20px;
+    padding-bottom: 1px;
+    background: url(../images/icons/icons-ext.png) no-repeat right -258px;
 }
 
 a[href$='.dmg'],
 a[href$='.app'] {
-	padding-right: 20px;
-	padding-bottom: 1px;
-	background: url(../images/icons/icons-ext.png) no-repeat right -344px;
+    padding-right: 20px;
+    padding-bottom: 1px;
+    background: url(../images/icons/icons-ext.png) no-repeat right -344px;
 }
 
 a[href$='.doc'],
 a[href$='.rtf'] {
-	padding-right: 20px;
-	padding-bottom: 1px;
-	background: url(../images/icons/icons-ext.png) no-repeat right -430px;
+    padding-right: 20px;
+    padding-bottom: 1px;
+    background: url(../images/icons/icons-ext.png) no-repeat right -430px;
 }
 
 a[href$='.rss'],
 a[href$='.atom'] {
-	padding-right: 20px;
-	padding-bottom: 1px;
-	background: url(../images/icons/icons-ext.png) no-repeat right -516px;
+    padding-right: 20px;
+    padding-bottom: 1px;
+    background: url(../images/icons/icons-ext.png) no-repeat right -516px;
 }
 
 a[href$='.mp4'],
 a[href$='.avi'],
 a[href$='.mpg'] {
-	padding-right: 20px;
-	padding-bottom: 1px;
-	background: url(../images/icons/icons-ext.png) no-repeat right -602px;
+    padding-right: 20px;
+    padding-bottom: 1px;
+    background: url(../images/icons/icons-ext.png) no-repeat right -602px;
 }
 
 a[href$='.fla'],
 a[href$='.swf'] {
-	padding-right: 20px;
-	padding-bottom: 1px;
-	background: url(../images/icons/icons-ext.png) no-repeat right -688px;
+    padding-right: 20px;
+    padding-bottom: 1px;
+    background: url(../images/icons/icons-ext.png) no-repeat right -688px;
 }
 
 a[href$='.ical'] {
-	padding-right: 20px;
-	padding-bottom: 1px;
-	background: url(../images/icons/icons-ext.png) no-repeat right -774px;
+    padding-right: 20px;
+    padding-bottom: 1px;
+    background: url(../images/icons/icons-ext.png) no-repeat right -774px;
 }
 
 a[href^="mailto:"] {
-	padding-right: 20px;
-	padding-bottom: 1px;
-	background: url(../images/icons/icons-ext.png) no-repeat right -860px;
+    padding-right: 20px;
+    padding-bottom: 1px;
+    background: url(../images/icons/icons-ext.png) no-repeat right -860px;
 }
 
 a[href$=".mov"] {
-	padding-right: 20px;
-	padding-bottom: 1px;
-	background: url(../images/icons/icons-ext.png) no-repeat right -946px;
+    padding-right: 20px;
+    padding-bottom: 1px;
+    background: url(../images/icons/icons-ext.png) no-repeat right -946px;
 }
 
 a[href^="msnim:"] {
-	padding-right: 20px;
-	padding-bottom: 1px;
-	background: url(../images/icons/icons-ext.png) no-repeat right -1032px;
+    padding-right: 20px;
+    padding-bottom: 1px;
+    background: url(../images/icons/icons-ext.png) no-repeat right -1032px;
 }
 
 a[href$='.mp3'],
@@ -659,80 +659,80 @@ a[href$='.wav'],
 a[href$='.ogg'],
 a[href$='.wma'],
 a[href$='.m4a'] {
-	padding-right: 20px;
-	padding-bottom: 1px;
-	background: url(../images/icons/icons-ext.png) no-repeat right -1118px;
+    padding-right: 20px;
+    padding-bottom: 1px;
+    background: url(../images/icons/icons-ext.png) no-repeat right -1118px;
 }
 
 a[href$='.pdf'] {
-	padding-right: 20px;
-	padding-bottom: 1px;
-	background: url(../images/icons/icons-ext.png) no-repeat right -1204px;
+    padding-right: 20px;
+    padding-bottom: 1px;
+    background: url(../images/icons/icons-ext.png) no-repeat right -1204px;
 }
 
 a[href$='.pps'] {
-	padding-right: 20px;
-	padding-bottom: 1px;
-	background: url(../images/icons/icons-ext.png) no-repeat right -1290px;
+    padding-right: 20px;
+    padding-bottom: 1px;
+    background: url(../images/icons/icons-ext.png) no-repeat right -1290px;
 }
 
 a[href^="skype:"] {
-	padding-right: 20px;
-	padding-bottom: 1px;
-	background: url(../images/icons/icons-ext.png) no-repeat right -1376px;
+    padding-right: 20px;
+    padding-bottom: 1px;
+    background: url(../images/icons/icons-ext.png) no-repeat right -1376px;
 }
 
 a[href$='.torrent'] {
-	padding-right: 20px;
-	padding-bottom: 1px;
-	background: url(../images/icons/icons-ext.png) no-repeat right -1462px;
+    padding-right: 20px;
+    padding-bottom: 1px;
+    background: url(../images/icons/icons-ext.png) no-repeat right -1462px;
 }
 
 a[href$='.ttf'] {
-	padding-right: 20px;
-	padding-bottom: 1px;
-	background: url(../images/icons/icons-ext.png) no-repeat right -1548px;
+    padding-right: 20px;
+    padding-bottom: 1px;
+    background: url(../images/icons/icons-ext.png) no-repeat right -1548px;
 }
 
 a[href$='.txt'] {
-	padding-right: 20px;
-	padding-bottom: 1px;
-	background: url(../images/icons/icons-ext.png) no-repeat right -1634px;
+    padding-right: 20px;
+    padding-bottom: 1px;
+    background: url(../images/icons/icons-ext.png) no-repeat right -1634px;
 }
 
 a[href$='.vcard'] {
-	padding-right: 20px;
-	padding-bottom: 1px;
-	background: url(../images/icons/icons-ext.png) no-repeat right -1720px;
+    padding-right: 20px;
+    padding-bottom: 1px;
+    background: url(../images/icons/icons-ext.png) no-repeat right -1720px;
 }
 
 a[href$=".wmv"] {
-	padding-right: 20px;
-	padding-bottom: 1px;
-	background: url(../images/icons/icons-ext.png) no-repeat right -1806px;
+    padding-right: 20px;
+    padding-bottom: 1px;
+    background: url(../images/icons/icons-ext.png) no-repeat right -1806px;
 }
 
 a[href$='.xls'] {
-	padding-right: 20px;
-	padding-bottom: 1px;
-	background: url(../images/icons/icons-ext.png) no-repeat right -1892px;
+    padding-right: 20px;
+    padding-bottom: 1px;
+    background: url(../images/icons/icons-ext.png) no-repeat right -1892px;
 }
 
 /* Set print and email options */
 
 div.btn-group.pull-right {
-  float:right;
-  padding:5px;
-  background-color: #DDDDDD;
-  border-radius: 10px;
+    float:right;
+    padding:5px;
+    background-color: #DDDDDD;
+    border-radius: 10px;
 }
 #sp-leftcol div.btn-group.pull-right ul li{
-   list-style: none outside none ;
+    list-style: none outside none ;
 }
 
 /*&nbsp;Article deatils */
 dl.article-info dt{
-  display: none;
+    display: none;
 }
 
 
@@ -809,3 +809,10 @@ dl.article-info dt{
     top: 0;
 }
 
+#rafooter {
+    width: 100%;
+    display: -webkit-flex; /* Safari */
+    -webkit-justify-content: space-between; /* Safari 6.1+ */
+    display: flex;
+    justify-content:space-between; 
+}

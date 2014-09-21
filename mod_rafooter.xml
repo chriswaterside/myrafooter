@@ -29,6 +29,10 @@
 		            <option value="1">Enable</option>
 		            <option value="0">Disable</option>
                         </field>
+			<field name="footersize" type="radio" default="1" label="Display full or short copyright information">
+		            <option value="1">Full</option>
+		            <option value="0">Short</option>
+                        </field>
 			<field name="footerstyle" type="radio" default="0" label="Display Ramblers.org.uk style footer">
 		            <option value="1">Enable</option>
 		            <option value="0">Disable</option>
