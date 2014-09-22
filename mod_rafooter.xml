@@ -13,7 +13,7 @@
         <server type="extension" name="Ramblers Footer Module" priority="1">http://updates.ramblers-webs.org.uk/rafooter.xml</server>
     </updateservers>
     <files>
-        <filename >mod_rafooter.php</filename>
+        <filename>mod_rafooter.php</filename>
         <folder module="mod_rafooter">tmpl</folder>
         <folder>images</folder>
         <folder>images/icons/</folder>
@@ -21,6 +21,9 @@
         <filename>en-GB.mod_rafooter.ini</filename>
         <filename>index.html</filename>
     </files>
+    <languages folder="langfiles">
+        <language tag="en-GB">en-GB.mod_rafooter.ini</language>
+    </languages>
     <config>
         <fields name="params">
             <fieldset name="basic">

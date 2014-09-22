@@ -31,7 +31,6 @@ if ($footerstyle == 1) {
     $text = "div#rt-bottom {background: url(" . $url . ") no-repeat scroll bottom ".$imageposition."; background-size:contain; min-height: 120px}";
     $backcolour = getFooterColor($background_color, $custom_background_color);
     $text.="#rt-footer,#rt-copyright {background-color: " . $backcolour . "   !important;}";
-    $text.="#rt-copyright{font-size: 0.9em !important ;}";
     $document->addStyleDeclaration($text);
     if ($textcolour == 0) {
         $document->addStyleSheet(JURI::base() . 'modules/mod_rafooter/css/footerwhitestyle.css');
