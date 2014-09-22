@@ -1,56 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="module" version="3.0" client="site" method="upgrade">
-<name>RA Footer</name>
-<author>Chris Vaughan</author>
-<creationDate>2014-07-23</creationDate>
-<copyright>Copyright (C) 2012 Ramblers-webs.org.uk</copyright>
-<license>This extension in released under the GNU/GPL License</license>
-<authorEmail>webmaster@ramblers-webs.org.uk</authorEmail>
-<authorUrl>www.ramblers-webs.org.uk</authorUrl>
-<version>1.5.0</version>
-<description>This module displays fully customizable footer module for Ramblers branding</description>
-	<updateservers>
-		<server type="extension" name="Ramblers Footer Module" priority="1">http://updates.ramblers-webs.org.uk/rafooter.xml</server>
-	</updateservers>
-	<files>
-	<filename >mod_rafooter.php</filename>
-	<folder module="mod_rafooter">tmpl</folder>
-	<folder>images</folder>
-	<folder>images/icons/</folder>
-	<folder>css</folder>
-	<filename>index.html</filename>
-</files>
-<config>
-	<fields name="params">
-		<fieldset name="basic">
-			<field name="startyear" type="text" default="2010" size="10" label="Start_Year" description="Start_year_of_web_site" />
-			<field name="copyrighttext" type="text" default="Site Name" size="10" label="Copyright_text" description="Copyright_text_or_site_name" />
-			<field name="ramblerswebs" type="radio" default="1" label="Display Ramblers-webs hosting">
-		            <option value="1">Enable</option>
-		            <option value="0">Disable</option>
-                        </field>
-			<field name="footersize" type="radio" default="1" label="Display full or short copyright information">
-		            <option value="1">Full</option>
-		            <option value="0">Short</option>
-                        </field>
-			<field name="footerstyle" type="radio" default="0" label="Display Ramblers.org.uk style footer">
-		            <option value="1">Enable</option>
-		            <option value="0">Disable</option>
-                        </field>
-		</fieldset>
-		<fieldset name="advanced">
-			<field name="layout" type="modulelayout" label="JFIELD_ALT_LAYOUT_LABEL" description="JFIELD_ALT_MODULE_LAYOUT_DESC" />
-			<field name="moduleclass_sfx" type="text" label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL" description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
-			<field name="cache" type="list" default="1" label="COM_MODULES_FIELD_CACHING_LABEL" description="COM_MODULES_FIELD_CACHING_DESC">
-				<option value="1">JGLOBAL_USE_GLOBAL</option>
-				<option value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
-			</field>
-			<field name="cache_time" type="text" default="900" label="COM_MODULES_FIELD_CACHE_TIME_LABEL" description="COM_MODULES_FIELD_CACHE_TIME_DESC" />
-			<field name="cachemode" type="hidden" default="static">
-				<option value="static"></option>
-			</field>
-		</fieldset>
-	</fields>
-</config>
+    <name>RA Footer</name>
+    <author>Chris Vaughan</author>
+    <creationDate>2014-07-23</creationDate>
+    <copyright>Copyright (C) 2012 Ramblers-webs.org.uk</copyright>
+    <license>This extension in released under the GNU/GPL License</license>
+    <authorEmail>webmaster@ramblers-webs.org.uk</authorEmail>
+    <authorUrl>www.ramblers-webs.org.uk</authorUrl>
+    <version>1.5.0</version>
+    <description>This module displays fully customizable footer module for Ramblers branding</description>
+    <updateservers>
+        <server type="extension" name="Ramblers Footer Module" priority="1">http://updates.ramblers-webs.org.uk/rafooter.xml</server>
+    </updateservers>
+    <files>
+        <filename >mod_rafooter.php</filename>
+        <folder module="mod_rafooter">tmpl</folder>
+        <folder>images</folder>
+        <folder>images/icons/</folder>
+        <folder>css</folder>
+        <filename>en-GB.mod_rafooter.ini</filename>
+        <filename>index.html</filename>
+    </files>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field name="startyear" type="text" default="2010" size="10" label="Start_Year" description="Start_year_of_web_site" />
+                <field name="copyrighttext" type="text" default="Site Name" size="10" label="Copyright_text" description="Copyright_text_or_site_name" />
+                <field name="ramblerswebs" type="radio" default="1" label="Display Ramblers-webs hosting">
+                    <option value="1">Enable</option>
+                    <option value="0">Disable</option>
+                </field>
+                <field name="footersize" type="radio" default="1" label="Display full or short copyright information">
+                    <option value="1">Full</option>
+                    <option value="0">Short</option>
+                </field>
+                <fieldset name="Ramblers">            
+                    <field name="footerstyle" type="radio" default="0" label="Display Ramblers.org.uk style footer">
+                        <option value="1">Enable</option>
+                        <option value="0">Disable</option>
+                    </field>
+                    <field name="background_color" type="list" default="_blank" label="Background_colour" description="Background_colour" >
+                        <option value="darkgrey">Dark Gray</option>
+                        <option value="pantone0110">PANTONE0110</option>
+                        <option value="pantone0159">PANTONE0159</option>
+                        <option value="pantone0186">PANTONE0186</option>
+                        <option value="pantone0555">PANTONE0555</option>
+                        <option value="pantone0583">PANTONE0583</option>
+                        <option value="pantone1815">PANTONE1815</option>
+                        <option value="pantone4485">PANTONE4485</option>
+                        <option value="pantone5565">PANTONE5565</option>
+                        <option value="pantone7474">PANTONE7474</option>
+                        <option value="custom">CUSTOM</option>
+                    </field>
+                    <field name="custom_background_colour_value" type="text" default="#000000" size="8" label="Custom_background_colour" description="Custom_background_colour" />
+                    <field name="textcolour" type="radio" default="1" label="Footer/Copyright text colour">
+                        <option value="1">Dark</option>
+                        <option value="0">White</option>
+                    </field>
+                    <field name="standardimage" type="radio" default="1" label="Standard Footer Image">
+                        <option value="1">Yes</option>
+                        <option value="0">No</option>
+                    </field>
+                    <field name="footer_image" type="media" directory="" label="Footer_image" description="Footer_image"/>
+                    <field name="imageposition" type="list" default="center" label="Image position">
+                        <option value="center">center</option>
+                        <option value="left">left</option>
+                        <option value="right">right</option>
+                    </field>
+                </fieldset>
+            </fieldset>
+            <fieldset name="advanced">
+                <field name="layout" type="modulelayout" label="JFIELD_ALT_LAYOUT_LABEL" description="JFIELD_ALT_MODULE_LAYOUT_DESC" />
+                <field name="moduleclass_sfx" type="text" label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL" description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+                <field name="cache" type="list" default="1" label="COM_MODULES_FIELD_CACHING_LABEL" description="COM_MODULES_FIELD_CACHING_DESC">
+                    <option value="1">JGLOBAL_USE_GLOBAL</option>
+                    <option value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+                </field>
+                <field name="cache_time" type="text" default="900" label="COM_MODULES_FIELD_CACHE_TIME_LABEL" description="COM_MODULES_FIELD_CACHE_TIME_DESC" />
+                <field name="cachemode" type="hidden" default="static">
+                    <option value="static"></option>
+                </field>
+            </fieldset>
+        </fields>
+    </config>
 
 </extension>
