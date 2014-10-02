@@ -173,7 +173,7 @@ span#sgfooter {
 legend.hidelabeltxt {
     display: none;
 }
-/* class to hide sections, in particular header top and social icons*/
+/* class to hide sections*/
 
 .ramblers-remove {
     display: none;
@@ -459,112 +459,6 @@ a.link-button, .link-button a {
     background-image: linear-gradient(-90deg, #007A87 0%, #00A5B7 100%);
 }
 
-/* Coloured bullet lists */
-
-#sp-leftcol ul.list-number-bullet li{
-    list-style: none outside none;
-}
-ul.list-number-bullet li {
-    margin-left: 0;
-    padding: 6px 0 6px 36px;
-    position: relative;
-}
-ul.list-number-bullet li .ra-listbullet {
-    border-radius: 5px;
-}
-ul.list-number-bullet li .ra-listbullet {
-    color: #fff;
-    display: block;
-    font-size: 14px;
-    font-weight: bold;
-    height: 24px;
-    left: 0;
-    line-height: 24px;
-    margin: 4px;
-    position: absolute;
-    text-align: center;
-    top: -2px;
-    width: 24px;
-}
-
-ul.list-number-bullet.bullet-p0110 li .ra-listbullet {
-    background-image: linear-gradient(-90deg, #D7A900 0%, #FBC200 100%);
-}
-ul.list-number-bullet.bullet-p0159 li .ra-listbullet {
-    background-image: linear-gradient(-90deg, #C75B12 0%, #E06614 100%);
-}
-ul.list-number-bullet.bullet-p0186 li .ra-listbullet {
-    background-image: linear-gradient(-90deg, #C60C30 0%, #F2224B 100%);
-}
-ul.list-number-bullet.bullet-p0555 li .ra-listbullet {
-    background-image: linear-gradient(-90deg, #206C49 0%, #2B9163 100%);
-}
-ul.list-number-bullet.bullet-p0583 li .ra-listbullet {
-    background-image: linear-gradient(-90deg, #A8B400 0%, #C9D900 100%);
-}
-ul.list-number-bullet.bullet-p1815 li .ra-listbullet {
-    background-image: linear-gradient(-90deg, #782327 0%, #9F2F34 100%);
-}
-ul.list-number-bullet.bullet-p4485 li .ra-listbullet {
-    background-image: linear-gradient(-90deg, #5B491F 0%, #82682D 100%);
-}
-ul.list-number-bullet.bullet-p5565 li .ra-listbullet {
-    background-image: linear-gradient(-90deg, #8BA69C 0%, #A3B8B0 100%);
-}
-ul.list-number-bullet.bullet-p7474 li .ra-listbullet {
-    background-image: linear-gradient(-90deg, #007A87 0%, #00A5B7 100%);
-}
-
-
-/* coloured numbers in lists */
-#sp-leftcol ul.list-number-digit li {
-    margin-left: 0;
-    padding: 8px 0 8px 42px;
-    position: relative;
-    list-style: none outside none;
-}
-ul.list-number-digit li .ra-listbullet {
-    display: block;
-    font-size: 32px;
-    font-weight: bold;
-    left: 0;
-    line-height: 100%;
-    position: absolute;
-    text-align: right;
-    top: 0;
-    width: 32px;
-}
-ul.list-number-digit {
-    list-style: none outside none;
-}
-
-ul.list-number-digit.digit-p0110 li .ra-listbullet {
-    color: #D7A900;
-}
-ul.list-number-digit.digit-p0159 li .ra-listbullet {
-    color: #C75B12;
-}
-ul.list-number-digit.digit-p0186 li .ra-listbullet {
-    color: #C60C30;
-}
-ul.list-number-digit.digit-p0555 li .ra-listbullet {
-    color: #206C49;
-}
-ul.list-number-digit.digit-p0583 li .ra-listbullet {
-    color: #C9D900;
-}
-ul.list-number-digit.digit-p1815 li .ra-listbullet {
-    color: #782327;
-}
-ul.list-number-digit.digit-p4485 li .ra-listbullet {
-    color: #82682D;
-}
-ul.list-number-digit.digit-p5565 li .ra-listbullet {
-    color: #8BA69C;
-}
-ul.list-number-digit.digit-p7474 li .ra-listbullet {
-    color: #007A87;
-}
 
 /* Icons based on extensions */
 
@@ -714,95 +608,9 @@ a[href$='.xls'] {
     background: url(../images/icons/icons-ext.png) no-repeat right -1892px;
 }
 
-/* Set print and email options */
 
-div.btn-group.pull-right {
-    float:right;
-    padding:5px;
-    background-color: #DDDDDD;
-    border-radius: 10px;
-}
-#sp-leftcol div.btn-group.pull-right ul li{
-    list-style: none outside none ;
-}
-
-/*&nbsp;Article deatils */
-dl.article-info dt{
-    display: none;
-}
-
-
-.tooltip {
-    display: block;
-    font-size: 11px;
-    line-height: 1.4;
-    opacity: 0;
-    position: absolute;
-    visibility: visible;
-    z-index: 103000;
-}
-.tooltip.in {
-    opacity: 0.8;
-}
-.tooltip.top {
-    margin-top: -3px;
-    padding: 5px 0;
-}
-.tooltip.right {
-    margin-left: 3px;
-    padding: 0 5px;
-}
-.tooltip.bottom {
-    margin-top: 3px;
-    padding: 5px 0;
-}
-.tooltip.left {
-    margin-left: -3px;
-    padding: 0 5px;
-}
-.tooltip-inner {
-    background-color: #000;
-    border-radius: 4px;
-    color: #fff;
-    max-width: 200px;
-    padding: 8px;
-    text-align: left;
-    text-decoration: none;
-}
-.tooltip-arrow {
-    border-color: transparent;
-    border-style: solid;
-    height: 0;
-    position: absolute;
-    width: 0;
-}
-.tooltip.top .tooltip-arrow {
-    border-top-color: #000;
-    border-width: 5px 5px 0;
-    bottom: 0;
-    left: 50%;
-    margin-left: -5px;
-}
-.tooltip.right .tooltip-arrow {
-    border-right-color: #000;
-    border-width: 5px 5px 5px 0;
-    left: 0;
-    margin-top: -5px;
-    top: 50%;
-}
-.tooltip.left .tooltip-arrow {
-    border-left-color: #000;
-    border-width: 5px 0 5px 5px;
-    margin-top: -5px;
-    right: 0;
-    top: 50%;
-}
-.tooltip.bottom .tooltip-arrow {
-    border-bottom-color: #000;
-    border-width: 0 5px 5px;
-    left: 50%;
-    margin-left: -5px;
-    top: 0;
+tr.highlightrow {
+    background-color: #cccccc;
 }
 
 #rafooter {
@@ -812,3 +620,34 @@ dl.article-info dt{
     display: flex;
     justify-content:space-between; 
 }
+
+/* css code to handle json walk feeds */
+
+div.walkstdfulldetails {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    border-radius: 10px 10px 10px 10px;
+    padding: 5px;
+    background-color: #cccccc;
+
+}
+
+div.walkstdfulldetails div.basics,
+div.walkstdfulldetails div.nomeetplace,
+div.walkstdfulldetails div.meetplace,
+div.walkstdfulldetails div.startplace,
+div.walkstdfulldetails div.finishplace,
+div.walkstdfulldetails div.difficulty,
+div.walkstdfulldetails div.walkcontact {
+    margin: 2px;
+    border-radius: 10px 10px 10px 10px;
+    padding: 5px;
+    background-color: #eeeeee;
+    display: table;
+    width:97%;
+    border: 1px solid #CC0033  ;
+    background-color: #fefefe;
+}
+
+
