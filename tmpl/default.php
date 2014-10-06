@@ -24,18 +24,18 @@ $document = JFactory::getDocument();
 $document->addStyleSheet(JURI::base() . 'modules/mod_rafooter/css/ramblers.css');
 if ($footerstyle == 1) {
     if ($standardimage == 1) {
-        $url = "modules/mod_rafooter/images/footer-bg.png";
+        $url = JURI::base() . "/modules/mod_rafooter/images/footer-bg.png";
     } else {
-        $url = $footer_image;
+        $url = JURI::base() . $footer_image;
     }
-    $text = "div#rt-bottom {background: url(" . $url . ") no-repeat scroll bottom ".$imageposition."; background-size:contain; min-height: 120px}";
+    $text = "div#rt-bottom {background: url(" . $url . ") no-repeat scroll bottom " . $imageposition . "; background-size:contain; min-height: 120px}";
     $backcolour = getFooterColor($background_color, $custom_background_color);
     $text.="#rt-footer,#rt-copyright {background-color: " . $backcolour . "   !important;}";
     $document->addStyleDeclaration($text);
     if ($textcolour == 0) {
         $document->addStyleSheet(JURI::base() . 'modules/mod_rafooter/css/footerwhitestyle.css');
-    }else {
-          $document->addStyleSheet(JURI::base() . 'modules/mod_rafooter/css/footerdarkstyle.css');
+    } else {
+        $document->addStyleSheet(JURI::base() . 'modules/mod_rafooter/css/footerdarkstyle.css');
     }
 }
 

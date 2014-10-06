@@ -629,7 +629,8 @@ div.walkstdfulldetails {
     column-count: 2;
     border-radius: 10px 10px 10px 10px;
     padding: 5px;
-    background-color: #cccccc;
+    background-color: #FFFFFF;
+    min-width: 500px;
 
 }
 
@@ -643,11 +644,21 @@ div.walkstdfulldetails div.walkcontact {
     margin: 2px;
     border-radius: 10px 10px 10px 10px;
     padding: 5px;
-    background-color: #eeeeee;
     display: table;
     width:97%;
-    border: 1px solid #CC0033  ;
-    background-color: #fefefe;
+    border: 2px solid #cccccc  ;
+    background-color: #dddddd;
 }
 
-
+.sp-accordion.sp-accordion-style1 .toggler, .sp-accordion.sp-accordion-style1 .toggler span, .sp-accordion.sp-accordion-style1 .toggler span span {
+    height: auto
+}
+.sp-accordion.sp-accordion-style2 .toggler, .sp-accordion.sp-accordion-style2 .toggler span, .sp-accordion.sp-accordion-style2 .toggler span span {
+    height: auto
+}
+.sp-accordion.sp-accordion-style3 .toggler, .sp-accordion.sp-accordion-style3 .toggler span, .sp-accordion.sp-accordion-style3 .toggler span span {
+    height: auto
+}
+.sp-accordion.sp-accordion-style4 .toggler, .sp-accordion.sp-accordion-style4 .toggler span, .sp-accordion.sp-accordion-style4 .toggler span span {
+    height: auto
+}
