@@ -623,6 +623,14 @@ tr.highlightrow {
 
 /* css code to handle json walk feeds */
 
+/* Ramblers additions */
+.walkCancelled {color:#C60C30; text-decoration: line-through;}
+
+.walkNew {
+  padding-left: 35px;
+    padding-bottom: 0px;
+    background: url(../images/icons/new.gif) no-repeat;
+}
 div.walkstdfulldetails {
     -webkit-column-count: 2; /* Chrome, Safari, Opera */
     -moz-column-count: 2; /* Firefox */
