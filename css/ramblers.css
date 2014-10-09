@@ -627,9 +627,8 @@ tr.highlightrow {
 .walkCancelled {color:#C60C30; text-decoration: line-through;}
 
 .walkNew {
-  padding-left: 35px;
-    padding-bottom: 0px;
-    background: url(../images/icons/new.gif) no-repeat;
+    padding-left: 35px;
+    background: url(../images/icons/new.gif) no-repeat scroll 0 50% rgba(0, 0, 0, 0);;
 }
 div.walkstdfulldetails {
     -webkit-column-count: 2; /* Chrome, Safari, Opera */
@@ -658,15 +657,3 @@ div.walkstdfulldetails div.walkcontact {
     background-color: #dddddd;
 }
 
-.sp-accordion.sp-accordion-style1 .toggler, .sp-accordion.sp-accordion-style1 .toggler span, .sp-accordion.sp-accordion-style1 .toggler span span {
-    height: auto
-}
-.sp-accordion.sp-accordion-style2 .toggler, .sp-accordion.sp-accordion-style2 .toggler span, .sp-accordion.sp-accordion-style2 .toggler span span {
-    height: auto
-}
-.sp-accordion.sp-accordion-style3 .toggler, .sp-accordion.sp-accordion-style3 .toggler span, .sp-accordion.sp-accordion-style3 .toggler span span {
-    height: auto
-}
-.sp-accordion.sp-accordion-style4 .toggler, .sp-accordion.sp-accordion-style4 .toggler span, .sp-accordion.sp-accordion-style4 .toggler span span {
-    height: auto
-}
