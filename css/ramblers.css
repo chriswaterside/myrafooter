@@ -206,7 +206,7 @@ div.ramod_pantone7474
     padding: 0px;
     color: #FFFFFF;
     border-style: solid;
-    border-width: 3px;
+    border-width: 2px;
     width:93%;
 }
 
@@ -251,28 +251,12 @@ div.ramod_heading7474
     color: #000000;
     border-color:  #F5F5F5;
     border-style: solid;
-    border-width: 3px;
-    width:93%;
+    border-width: 0px;
+    width:94%;
 }
 
 
-div.ramod_heading0110 div,
-div.ramod_heading0159 div,
-div.ramod_heading0186 div,
-div.ramod_heading0555 div,
-div.ramod_heading0583 div,
-div.ramod_heading1815 div,
-div.ramod_heading4485 div,
-div.ramod_heading5565 div,
-div.ramod_heading7474 div  {
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 0px;
-    padding-bottom: 5px;
-    margin: 0;
-    float: none;
-    background: none;
-}
+
 
 div.ramod_pantone0110 .module-content,
 div.ramod_pantone0159 .module-content,
