@@ -629,6 +629,7 @@ div.walkstdfulldetails div.basics,
 div.walkstdfulldetails div.nomeetplace,
 div.walkstdfulldetails div.meetplace,
 div.walkstdfulldetails div.startplace,
+div.walkstdfulldetails div.nostartplace,
 div.walkstdfulldetails div.finishplace,
 div.walkstdfulldetails div.difficulty,
 div.walkstdfulldetails div.walkcontact {
@@ -641,3 +642,8 @@ div.walkstdfulldetails div.walkcontact {
     background-color: #dddddd;
 }
 
+/* Popups */
+.rapopup {
+    color:#ff0000;
+  cursor: pointer
+}
