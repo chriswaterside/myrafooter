@@ -608,6 +608,24 @@ tr.highlightrow {
 /* css code to handle json walk feeds */
 
 /* Ramblers additions */
+.cancelledWalks { background-color: #8BA69C;
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #69897E
+}
+.cancelledWalks h3 {
+  color:#782327;
+  border-bottom: 1px solid #d1d1d1;
+  box-shadow: 0 1px 0 #ffffff;
+  text-shadow: 1px 1px 0 #ffffff;
+  margin-top: 0px;
+}
+
+.cancelledWalk {color:#000000; }
+.cancelreason {color:#C60C30; font-size: 130%; font-stretch: wider }
+
 .walkCancelled {color:#C60C30; text-decoration: line-through;}
 
 .walkNew {
