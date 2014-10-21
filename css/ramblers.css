@@ -642,6 +642,17 @@ div.walkstdfulldetails {
     min-width: 500px;
 
 }
+div.walkstdfulldetails div.description p{
+    margin: 0px;
+}
+
+div.walkstdfulldetails div.basics div.description,
+div.walkstdfulldetails div.meetplace div.place,
+div.walkstdfulldetails div.startplace div.place,
+div.walkstdfulldetails div.finishplace div.place{
+    font-size: 115%;
+}
+
 
 div.walkstdfulldetails div.basics,
 div.walkstdfulldetails div.nomeetplace,
