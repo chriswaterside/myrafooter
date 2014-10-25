@@ -609,18 +609,18 @@ tr.highlightrow {
 
 /* Ramblers additions */
 .cancelledWalks { background-color: #8BA69C;
-    border-radius: 10px 10px 10px 10px;
-    padding: 10px;
-    border-width: 2px;
-    border-style: solid;
-    border-color: #69897E
+                  border-radius: 10px 10px 10px 10px;
+                  padding: 10px;
+                  border-width: 2px;
+                  border-style: solid;
+                  border-color: #69897E
 }
 .cancelledWalks h3 {
-  color:#782327;
-  border-bottom: 1px solid #d1d1d1;
-  box-shadow: 0 1px 0 #ffffff;
-  text-shadow: 1px 1px 0 #ffffff;
-  margin-top: 0px;
+    color:#782327;
+    border-bottom: 1px solid #d1d1d1;
+    box-shadow: 0 1px 0 #ffffff;
+    text-shadow: 1px 1px 0 #ffffff;
+    margin-top: 0px;
 }
 
 .cancelledWalk {color:#000000; }
@@ -632,18 +632,39 @@ tr.highlightrow {
     padding-left: 35px;
     background: url(../images/icons/new.gif) no-repeat scroll 0 50% rgba(0, 0, 0, 0);;
 }
+span.walkerror {
+    color: #ffffff;
+    background-color: #C60C30;
+}
 div.walkstdfulldetails {
     -webkit-column-count: 2; /* Chrome, Safari, Opera */
     -moz-column-count: 2; /* Firefox */
     column-count: 2;
     border-radius: 10px 10px 10px 10px;
     padding: 5px;
-    background-color: #FFFFFF;
+    padding-right:10px;
+    background-color: #ffffff;
     min-width: 500px;
 
 }
 div.walkstdfulldetails div.description p{
     margin: 0px;
+}
+div.walkstdfulldetails div.group
+{
+    font-size: 115%;
+    margin: 2px;
+    border-radius: 10px 10px 10px 10px;
+    padding: 5px;
+    display: table;
+    width:97%;
+    border: 2px solid #782327  ;
+    background-color: #782327;
+    color: #eeeeee;
+}
+div.walkdates {
+    font-size: 80%;
+    font-style: italic;
 }
 
 div.walkstdfulldetails div.basics div.description,
@@ -678,6 +699,6 @@ div.walkstdfulldetails div.walkcontact {
     cursor: pointer;
 }
 .rapopup:after {
-  padding-left:10px;
-     content: url(../images/google20.jpg);
- }
+    padding-left:10px;
+    content: url(../images/google20.jpg);
+}
