@@ -182,7 +182,7 @@ legend.hidelabeltxt {
 /* Modules */
 
 .module-title h2.title {
-    font-size:160%;
+    font-size:140%;
     text-transform: none;
     text-shadow: none;
     line-height: 25px;
@@ -682,7 +682,9 @@ div.walkstdfulldetails div.startplace,
 div.walkstdfulldetails div.nostartplace,
 div.walkstdfulldetails div.finishplace,
 div.walkstdfulldetails div.difficulty,
-div.walkstdfulldetails div.walkcontact {
+div.walkstdfulldetails div.walkcontact,
+div.walkstdfulldetails div.festivals,
+div.walkstdfulldetails div.strands{
     margin: 2px;
     border-radius: 10px 10px 10px 10px;
     padding: 5px;

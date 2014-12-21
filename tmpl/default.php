@@ -20,6 +20,7 @@ $textcolour = $params->get('textcolour');
 $standardimage = $params->get('standardimage');
 $footer_image = $params->get('footer_image');
 $imageposition = $params->get('imageposition');
+$customcssfile = $params->get('custom_css_file');
 $document = JFactory::getDocument();
 $document->addStyleSheet(JURI::base() . 'modules/mod_rafooter/css/ramblers.css');
 if ($footerstyle == 1) {
@@ -36,6 +37,9 @@ if ($footerstyle == 1) {
         $document->addStyleSheet(JURI::base() . 'modules/mod_rafooter/css/footerwhitestyle.css');
     } else {
         $document->addStyleSheet(JURI::base() . 'modules/mod_rafooter/css/footerdarkstyle.css');
+    }
+    if ($customcssfile != "") {
+        $document->addStyleSheet(JURI::base() . $customcssfile);
     }
 }
 

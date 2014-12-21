@@ -37,10 +37,12 @@
                     <option value="1">Full</option>
                     <option value="0">Short</option>
                 </field>
+                <field name="custom_css_file" type="text" default="" label="Custom_css" description="Custom css file"/>
+     
             </fieldset>
             <fieldset name="ramblers">            
                 <field name="footerstyle" type="radio" default="0" label="Display Ramblers.org.uk style footer">
-                    <option value="1">Enable</option>
+                    <option value="1">Enable</option> 
                     <option value="0">Disable</option>
                 </field>
                 <field name="background_color" type="list" default="_blank" label="Background_colour" description="Background_colour" >
