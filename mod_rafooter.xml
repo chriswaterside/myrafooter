@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension type="module" version="3.0" client="site" method="upgrade">
+<extension type="module" version="3.3" client="site" method="upgrade">
     <name>RA Footer</name>
     <author>Chris Vaughan Derby and South Derbyshire</author>
     <creationDate>2014-07-23</creationDate>
