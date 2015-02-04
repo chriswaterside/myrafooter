@@ -25,7 +25,7 @@ $document = JFactory::getDocument();
 $document->addStyleSheet(JURI::base() . 'modules/mod_rafooter/css/ramblers.css');
 if ($footerstyle == 1) {
     if ($standardimage == 1) {
-        $url = JURI::base() . "/modules/mod_rafooter/images/footer-bg.png";
+        $url = JURI::base() . "modules/mod_rafooter/images/footer-bg.png";
     } else {
         $url = JURI::base() . $footer_image;
     }
