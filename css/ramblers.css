@@ -758,3 +758,12 @@ div.walkstdfulldetails div.strands{
     padding-left:10px;
     content: url(../images/google20.jpg);
 }
+.mappopup {
+    color:#782327;
+    cursor: pointer;
+}
+abbr[title] {
+    border-bottom: 1px dotted #d5d5d5;
+}
+.distnear { color:   #007A87}
+.distfar { color:   #8a1727}
