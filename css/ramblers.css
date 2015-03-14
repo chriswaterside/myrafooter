@@ -786,7 +786,13 @@ div.walkstdfulldetails div.strands{
 .mappopup {
     color:#782327;
     cursor: pointer;
+
+    }
+.place .mappopup {
+    font-size:  90%
 }
+
+
 abbr[title] {
     border-bottom: 1px dotted #d5d5d5;
 }
