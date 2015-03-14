@@ -690,7 +690,20 @@ span.walkerror {
     color: #ffffff;
     background-color: #C60C30;
 }
-div.walkstdfulldetails {
+@media only screen and (max-width: 768px){
+    div#ramblersheader {
+        background-image:none !important;
+    }
+}
+div.ra_fullwidth {
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: bottom;
+}
+
+@media only screen and (min-width: 769px){
+    div.walkstdfulldetails {
     -webkit-column-count: 2; /* Chrome, Safari, Opera */
     -moz-column-count: 2; /* Firefox */
     column-count: 2;
@@ -699,8 +712,20 @@ div.walkstdfulldetails {
     padding-right:10px;
     background-color: #ffffff;
     min-width: 500px;
+   }
+}
+
+@media only screen and (max-width: 768px){
+    div.walkstdfulldetails {
+    border-radius: 10px 10px 10px 10px;
+    padding: 5px;
+    padding-right:10px;
+    background-color: #ffffff;
+    min-width: 500px;
 
 }
+}
+
 div.walkstdfulldetails div.description p{
     margin: 0px;
 }
