@@ -47,19 +47,30 @@ if ($footerstyle == 1) {
 $copyright_symbol = '&copy;';
 // Copyright year
 $current_year = date('Y');
-if ($footersize == 1) {
-    $footer = '<div class="footer" >';
-    $footer .= 'Copyright ' . $copyright_symbol . ' ' . $startyear . '-' . $current_year . ' ' . $copyrighttext . '<br />';
-    if ($ramblerswebs != 0) {
-        $footer .= 'Hosted by <a href="http://www.ramblers-webs.org.uk/" target="_blank">www.ramblers-webs.org.uk</a>. Centrally funded hosting for Areas and Groups<br />';
-    }
-    $footer .= "The Ramblers' Association is a company limited by guarantee, registered in England and Wales. Company registration number: 4458492. Ramblers Charity England & Wales No: 1093577 Scotland No: SC039799. <br />Registered office: 2nd floor, Camelford House, 87-90 Albert Embankment, London SE1 7TW.";
-} else {
-    $footer = '<div class="footer" id=rafooter>';
-    $footer .= '<div>Ramblers Charity England & Wales No: 1093577 Scotland No: SC039799</div><div>' . $copyright_symbol . ' ' . $copyrighttext . '-' . $current_year . '</div>';
-    if ($ramblerswebs != 0) {
-        $footer .= '<div>Hosted by <a href="http://www.ramblers-webs.org.uk/" target="_blank">www.ramblers-webs.org.uk</a></div>';
-    }
+
+switch ($footersize) {
+    case 0: // short
+        $footer = '<div class="footer" id=rafooter>';
+        $footer .= '<div>Ramblers Charity England & Wales No: 1093577 Scotland No: SC039799</div><div>' . $copyright_symbol . ' ' . $copyrighttext . '-' . $current_year . '</div>';
+        if ($ramblerswebs != 0) {
+            $footer .= '<div>Hosted by <a href="http://www.ramblers-webs.org.uk/" target="_blank">www.ramblers-webs.org.uk</a></div>';
+        }
+        break;
+    case 1:  // full
+        $footer = '<div class="footer">';
+        $footer .= 'Copyright ' . $copyright_symbol . ' ' . $startyear . '-' . $current_year . ' ' . $copyrighttext . '<br />';
+        if ($ramblerswebs != 0) {
+            $footer .= 'Hosted by <a href="http://www.ramblers-webs.org.uk/" target="_blank">www.ramblers-webs.org.uk</a>. Centrally funded hosting for Areas and Groups<br />';
+        }
+        $footer .= "The Ramblers' Association is a company limited by guarantee, registered in England and Wales. Company registration number: 4458492. Ramblers Charity England & Wales No: 1093577 Scotland No: SC039799. <br />Registered office: 2nd floor, Camelford House, 87-90 Albert Embankment, London SE1 7TW.";
+        break;
+    case 2:  // none
+        $footer = '<div class="footer">';
+        $footer .= 'Copyright ' . $copyright_symbol . ' ' . $startyear . '-' . $current_year . ' ' . $copyrighttext . '<br />';
+
+        break;
+
+    default:
 }
 $footer.='</div>';
 
