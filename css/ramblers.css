@@ -28,18 +28,6 @@
 .gf-menu {
     margin-top: 2px;
 }
-#rt-breadcrumbs a:after {
-    content:  url(../images/icons/forward.png);
-    margin: 0 5px 0 10px;
-}
-#rt-breadcrumbs li span:after {
-    content: url(../images/icons/forward.png);
-    margin: 0 5px 0 10px;
-}
-#rt-breadcrumbs li.active span:after {
-    content: "";
-    margin: 0 5px 0 10px;
-}
 
 /* Ramblers additions */
 .cancelled {color:#C60C30; text-decoration: line-through;}
