@@ -39,16 +39,16 @@ if ($footerstyle == 1) {
     } else {
         $document->addStyleSheet(JURI::base() . 'modules/mod_rafooter/css/footerdarkstyle.css');
     }
-    if ($alternativecssfile != "") {
-        $document->addStyleSheet(JURI::base() . $alternativecssfile);
-    } else {
-        $document->addStyleSheet(JURI::base() . 'modules/mod_rafooter/css/ramblers.css');
-        if ($customcssfile != "") {
-            $document->addStyleSheet(JURI::base() . $customcssfile);
-        }
+}
+// add in style sheets
+if ($alternativecssfile != "") {
+    $document->addStyleSheet(JURI::base() . $alternativecssfile);
+} else {
+    $document->addStyleSheet(JURI::base() . 'modules/mod_rafooter/css/ramblers.css');
+    if ($customcssfile != "") {
+        $document->addStyleSheet(JURI::base() . $customcssfile);
     }
 }
-
 // Copyright symbol
 $copyright_symbol = '&copy;';
 // Copyright year
