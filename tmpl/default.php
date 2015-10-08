@@ -21,8 +21,9 @@ $standardimage = $params->get('standardimage');
 $footer_image = $params->get('footer_image');
 $imageposition = $params->get('imageposition');
 $customcssfile = $params->get('custom_css_file');
+$alternativecssfile = $params->get('alternative_css_file');
 $document = JFactory::getDocument();
-$document->addStyleSheet(JURI::base() . 'modules/mod_rafooter/css/ramblers.css');
+
 if ($footerstyle == 1) {
     if ($standardimage == 1) {
         $url = JURI::base() . "modules/mod_rafooter/images/footer-bg.png";
@@ -38,8 +39,13 @@ if ($footerstyle == 1) {
     } else {
         $document->addStyleSheet(JURI::base() . 'modules/mod_rafooter/css/footerdarkstyle.css');
     }
-    if ($customcssfile != "") {
-        $document->addStyleSheet(JURI::base() . $customcssfile);
+    if ($alternativecssfile != "") {
+        $document->addStyleSheet(JURI::base() . $alternativecssfile);
+    } else {
+        $document->addStyleSheet(JURI::base() . 'modules/mod_rafooter/css/ramblers.css');
+        if ($customcssfile != "") {
+            $document->addStyleSheet(JURI::base() . $customcssfile);
+        }
     }
 }
 

@@ -7,7 +7,7 @@
     <license>This extension in released under the GNU/GPL License</license>
     <authorEmail>webmaster@ramblers-webs.org.uk</authorEmail>
     <authorUrl>www.ramblers-webs.org.uk</authorUrl>
-    <version>2.3.0</version>
+    <version>2.4.0</version>
     <description>This module displays fully customizable footer module for Ramblers branding</description>
     <updateservers>
         <server type="extension" name="Ramblers Footer Module" priority="1">http://updates.ramblers-webs.org.uk/rafooter.xml</server>
@@ -38,7 +38,8 @@
                     <option value="0">Short</option>
                     <option value="2">No Copyright</option>
                 </field>
-                <field name="custom_css_file" type="text" default="" label="Custom_css" description="Custom css file"/>
+                <field name="custom_css_file" type="text" default="" label="Additional_css" description="Additional Custom css file"/>
+                <field name="alternative_css_file" type="text" default="" label="Alternative_css" description="Alternative css file"/>
      
             </fieldset>
             <fieldset name="ramblers">            
