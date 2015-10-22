@@ -10,7 +10,7 @@
     <version>2.4.0</version>
     <description>This module displays fully customizable footer module for Ramblers branding</description>
     <updateservers>
-        <server type="extension" name="Ramblers Footer Module" priority="1">https://github.com/ramblerswebs/updates/blob/master/updates/rafooter.xml</server>
+        <server type="extension" name="Ramblers Footer Module" priority="1">https://raw.githubusercontent.com/ramblerswebs/updates/master/updates/rafooter.xml</server>
     </updateservers>
     <files>
         <filename>mod_rafooter.php</filename>
