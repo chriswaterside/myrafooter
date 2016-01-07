@@ -580,7 +580,7 @@ a[href$='.m4a'] {
     background: url(../images/icons/icons-ext.png) no-repeat right -1118px;
 }
 
-a[href$='.pdf'] {
+#rt-mainbody-surround a[href$='.pdf'] {
     padding-right: 20px;
     padding-bottom: 1px;
     background: url(../images/icons/icons-ext.png) no-repeat right -1204px;
