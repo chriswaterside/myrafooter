@@ -32,6 +32,10 @@
 /* Ramblers additions */
 .cancelled {color:#C60C30; text-decoration: line-through;}
 
+a:hover {
+    color:#d0d0d0;
+}
+
 .preformat {
     background: none repeat scroll 0 0 #ffffd5;
     border-left: 5px solid #404040;
