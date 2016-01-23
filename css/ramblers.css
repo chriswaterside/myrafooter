@@ -461,32 +461,59 @@ a.link-button, .link-button a {
     text-decoration: none;
 }
 
-.link-button.button-p0110, .link-button.button-p0110:hover {
+.link-button.button-p0110{
     background-image: linear-gradient(-90deg, #D7A900 0%, #FBC200 100%);
 }
-.link-button.button-p0159, .link-button.button-p0159:hover {
+.link-button.button-p0159 {
     background-image: linear-gradient(-90deg, #C75B12 0%, #E06614 100%);
 }
-.link-button.button-p0186, .link-button.button-p0186:hover {
+.link-button.button-p0186 {
     background-image: linear-gradient(-90deg, #C60C30 0%, #F2224B 100%);
 }
-.link-button.button-p0555, .link-button.button-p0555:hover {
+.link-button.button-p0555{
     background-image: linear-gradient(-90deg, #206C49 0%, #2B9163 100%);
 }
-.link-button.button-p0583, .link-button.button-p0583:hover {
+.link-button.button-p0583{
     background-image: linear-gradient(-90deg, #A8B400 0%, #C9D900 100%);
 }
-.link-button.button-p1815, .link-button.button-p1815:hover {
+.link-button.button-p1815 {
     background-image: linear-gradient(-90deg, #782327 0%, #9F2F34 100%);
 }
-.link-button.button-p4485, .link-button.button-p4485:hover {
+.link-button.button-p4485{
     background-image: linear-gradient(-90deg, #5B491F 0%, #82682D 100%);
 }
-.link-button.button-p5565, .link-button.button-p5565:hover {
+.link-button.button-p5565 {
     background-image: linear-gradient(-90deg, #8BA69C 0%, #A3B8B0 100%);
 }
-.link-button.button-p7474, .link-button.button-p7474:hover {
+.link-button.button-p7474{
     background-image: linear-gradient(-90deg, #007A87 0%, #00A5B7 100%);
+}
+ .link-button.button-p0110:hover {
+    background-image: linear-gradient(-90deg, #FBC200 0%, #D7A900 100%);
+}
+.link-button.button-p0159:hover {
+    background-image: linear-gradient(-90deg, #E06614 0%, #C75B12 100%);
+}
+ .link-button.button-p0186:hover {
+    background-image: linear-gradient(-90deg, #F2224B 0%, #C60C30 100%);
+}
+ .link-button.button-p0555:hover {
+    background-image: linear-gradient(-90deg, #2B9163 0%, #206C49 100%);
+}
+ .link-button.button-p0583:hover {
+    background-image: linear-gradient(-90deg, #C9D900 0%, #A8B400 100%);
+}
+ .link-button.button-p1815:hover {
+    background-image: linear-gradient(-90deg, #9F2F34 0%, #782327 100%);
+}
+ .link-button.button-p4485:hover {
+    background-image: linear-gradient(-90deg, #82682D 0%, #5B491F 100%);
+}
+ .link-button.button-p5565:hover {
+    background-image: linear-gradient(-90deg, #A3B8B0 0%, #8BA69C 100%);
+}
+.link-button.button-p7474:hover {
+    background-image: linear-gradient(-90deg, #00A5B7 0%, #007A87 100%);
 }
 
 
@@ -644,16 +671,16 @@ tr.highlightrow {
 }
 /* Kunena forum user status*/
 div.userkunenalistempty {
-  color: #782327;
-  font-weight: 900
+    color: #782327;
+    font-weight: 900
 }
 div.userkunenalist {
-  color: #000000;
+    color: #000000;
 }
 ul.userkunenacatorgories li{
-  color:   #206C49;
-  list-style-type: square;
-  font-weight: 800
+    color:   #206C49;
+    list-style-type: square;
+    font-weight: 800
 }
 
 
@@ -688,6 +715,25 @@ ul.userkunenacatorgories li{
 
 .walkCancelled {color:#C60C30; text-decoration: line-through;}
 
+.ra-accordion-item.walkCancelled{
+    color:#C60C30; 
+    text-decoration: none;
+}
+
+.ra-accordion-item.walkCancelled div.reason{
+    font-weight: bold;
+}
+
+.ra-accordion-item.walkCancelled div.basics,
+.ra-accordion-item.walkCancelled div.nomeetplace,
+.ra-accordion-item.walkCancelled div.meetplace,
+.ra-accordion-item.walkCancelled div.startplace,
+.ra-accordion-item.walkCancelled div.nostartplace,
+.ra-accordion-item.walkCancelled div.finishplace,
+.ra-accordion-item.walkCancelled div.difficulty{
+    text-decoration: line-through;
+}
+
 .walkNew {
     padding-left: 35px;
     background: url(../images/icons/new.gif) no-repeat scroll 0 50% rgba(0, 0, 0, 0);;
@@ -710,26 +756,26 @@ div.ra_fullwidth {
 
 @media only screen and (min-width: 769px){
     div.walkstdfulldetails {
-    -webkit-column-count: 2; /* Chrome, Safari, Opera */
-    -moz-column-count: 2; /* Firefox */
-    column-count: 2;
-    border-radius: 10px 10px 10px 10px;
-    padding: 5px;
-    padding-right:10px;
-    background-color: #ffffff;
-    min-width: 500px;
-   }
+        -webkit-column-count: 2; /* Chrome, Safari, Opera */
+        -moz-column-count: 2; /* Firefox */
+        column-count: 2;
+        border-radius: 10px 10px 10px 10px;
+        padding: 5px;
+        padding-right:10px;
+        background-color: #ffffff;
+        min-width: 500px;
+    }
 }
 
 @media only screen and (max-width: 768px){
     div.walkstdfulldetails {
-    border-radius: 10px 10px 10px 10px;
-    padding: 5px;
-    padding-right:10px;
-    background-color: #ffffff;
-    min-width: 500px;
+        border-radius: 10px 10px 10px 10px;
+        padding: 5px;
+        padding-right:10px;
+        background-color: #ffffff;
+        min-width: 500px;
 
-}
+    }
 }
 
 div.walkstdfulldetails div.description p{
@@ -752,6 +798,7 @@ div.walkdates {
     font-style: italic;
 }
 
+div.walkstdfulldetails div.reason,
 div.walkstdfulldetails div.basics div.description,
 div.walkstdfulldetails div.meetplace div.place,
 div.walkstdfulldetails div.startplace div.place,
@@ -759,7 +806,7 @@ div.walkstdfulldetails div.finishplace div.place{
     font-size: 115%;
 }
 
-
+div.walkstdfulldetails div.reason,
 div.walkstdfulldetails div.basics,
 div.walkstdfulldetails div.nomeetplace,
 div.walkstdfulldetails div.meetplace,
@@ -793,7 +840,7 @@ div.walkstdfulldetails div.strands{
     color:#782327;
     cursor: pointer;
 
-    }
+}
 .place .mappopup {
     font-size:  90%
 }
@@ -804,3 +851,21 @@ abbr[title] {
 }
 .distnear { color:   #007A87}
 .distfar { color:   #8a1727}
+
+div.ra_walks_more a{
+    background-image: linear-gradient(-90deg, #206C49 0%, #2B9163 100%);
+    color: #fff ;
+    font-weight: bold;
+    transition: all 0.3s ease-out 0s;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.1em;
+    padding: 5px 12px;
+    text-decoration: none;
+    position: absolute;
+    right: 50px;
+}
+div.ra_walks_more a:hover{
+    background-image: linear-gradient(-90deg, #2B9163 0%, #206C49 100%);
+}
