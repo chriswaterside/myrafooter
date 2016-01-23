@@ -7,7 +7,7 @@
     <license>This extension in released under the GNU/GPL License</license>
     <authorEmail>webmaster@ramblers-webs.org.uk</authorEmail>
     <authorUrl>www.ramblers-webs.org.uk</authorUrl>
-    <version>2.5.2</version>
+    <version>2.5.3</version>
     <description>This module displays fully customizable footer module for Ramblers branding</description>
     <updateservers>
         <server type="extension" name="Ramblers Footer Module" priority="1">https://raw.githubusercontent.com/ramblerswebs/updates/master/updates/rafooter.xml</server>
