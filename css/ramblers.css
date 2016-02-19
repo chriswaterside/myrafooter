@@ -33,7 +33,7 @@
 .cancelled {color:#C60C30; text-decoration: line-through;}
 
 a:hover {
-    color:#d0d0d0;
+    color: #A8B400;
 }
 
 .preformat {
@@ -839,10 +839,12 @@ div.walkstdfulldetails div.strands{
 .mappopup {
     color:#782327;
     cursor: pointer;
-
 }
 .place .mappopup {
     font-size:  90%
+}
+.events.links {
+    font-size: .8em;
 }
 
 
