@@ -87,8 +87,8 @@ div.component-content table th, div.component-content table td {
     vertical-align: top;
 }
 table th {
-    background-color: #782327;
-    background-image: -moz-linear-gradient(center top , #782327, #9F2F34);
+    background-color: #8BA69C;
+    background-image: -moz-linear-gradient(center top , #8BA69C, #A3B8B0);
     background-repeat: repeat-x;
     color: #000000;
 }
@@ -871,3 +871,5 @@ div.ra_walks_more a{
 div.ra_walks_more a:hover{
     background-image: linear-gradient(-90deg, #2B9163 0%, #206C49 100%);
 }
+
+div.groupA,div.groupG,div.groupS { font-weight: bold;}
