@@ -824,6 +824,17 @@ div.walkstdfulldetails div.strands{
     width:97%;
     border: 2px solid #cccccc  ;
     background-color: #dddddd;
+    line-height: 1.5em;
+}
+div.walkstdfulldetails div.walkdates{
+    margin: 2px;
+    border-radius: 10px 10px 10px 10px;
+    padding: 5px;
+    display: table;
+    width:97%;
+    border: 2px solid #cccccc  ;
+    background-color: #f0f0f0;
+    line-height: 1.5em;
 }
 
 /* Popups */
@@ -873,3 +884,12 @@ div.ra_walks_more a:hover{
 }
 
 div.groupA,div.groupG,div.groupS { font-weight: bold;}
+
+.gf-menu-toggle::after {
+    color: white;
+    content: "Menu";
+    float: left;
+}
+.gf-menu-toggle span {
+    margin-left: 10px;
+}
