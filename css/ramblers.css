@@ -488,28 +488,28 @@ a.link-button, .link-button a {
 .link-button.button-p7474{
     background-image: linear-gradient(-90deg, #007A87 0%, #00A5B7 100%);
 }
- .link-button.button-p0110:hover {
+.link-button.button-p0110:hover {
     background-image: linear-gradient(-90deg, #FBC200 0%, #D7A900 100%);
 }
 .link-button.button-p0159:hover {
     background-image: linear-gradient(-90deg, #E06614 0%, #C75B12 100%);
 }
- .link-button.button-p0186:hover {
+.link-button.button-p0186:hover {
     background-image: linear-gradient(-90deg, #F2224B 0%, #C60C30 100%);
 }
- .link-button.button-p0555:hover {
+.link-button.button-p0555:hover {
     background-image: linear-gradient(-90deg, #2B9163 0%, #206C49 100%);
 }
- .link-button.button-p0583:hover {
+.link-button.button-p0583:hover {
     background-image: linear-gradient(-90deg, #C9D900 0%, #A8B400 100%);
 }
- .link-button.button-p1815:hover {
+.link-button.button-p1815:hover {
     background-image: linear-gradient(-90deg, #9F2F34 0%, #782327 100%);
 }
- .link-button.button-p4485:hover {
+.link-button.button-p4485:hover {
     background-image: linear-gradient(-90deg, #82682D 0%, #5B491F 100%);
 }
- .link-button.button-p5565:hover {
+.link-button.button-p5565:hover {
     background-image: linear-gradient(-90deg, #A3B8B0 0%, #8BA69C 100%);
 }
 .link-button.button-p7474:hover {
@@ -892,4 +892,10 @@ div.groupA,div.groupG,div.groupS { font-weight: bold;}
 }
 .gf-menu-toggle span {
     margin-left: 10px;
+}
+/* enable RokNavMenu menu to be displayed */
+@media (max-width: 767px) {
+    .gf-menu-device-container.responsive-type-panel ~ ul.gf-menu {
+        display: initial;
+    }
 }
