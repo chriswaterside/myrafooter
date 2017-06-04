@@ -703,3 +703,16 @@ div.ra_fullwidth {
         display: initial;
     }
 }
+/* Kunena forum user status*/
+div.userkunenalistempty {
+    color: #782327;
+    font-weight: 900
+}
+div.userkunenalist {
+    color: #000000;
+}
+ul.userkunenacatorgories li{
+    color:   #206C49;
+    list-style-type: square;
+    font-weight: 800
+}
