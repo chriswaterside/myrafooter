@@ -12,6 +12,7 @@ defined('_JEXEC') or die('Restricted access');
 $startyear = $params->get('startyear');
 $copyrighttext = $params->get('copyrighttext');
 $ramblerswebs = $params->get('ramblerswebs');
+$ramblersprivacy = $params->get('ramblersprivacy');
 $footersize = $params->get('footersize');
 $footerstyle = $params->get('footerstyle');
 $background_color = $params->get('background_color');
@@ -79,6 +80,9 @@ switch ($footersize) {
     default:
 }
 $footer.='</div>';
+if ($ramblersprivacy) {
+    $footer .= '<p><a href="http://www.ramblers.org.uk/technical-stuff/privacy-policy.aspx" target="_blank">Ramblers Privacy Policy</a></p>';
+}
 
 echo $footer;
 
