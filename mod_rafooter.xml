@@ -38,9 +38,9 @@
                     <option value="0">Short</option>
                     <option value="2">No Copyright</option>
                 </field>
-              <field name="ramblersprivacy" type="radio" default="1" label="Display link to Ramblers privacy policy">
-                    <option value="1">Enable</option>
-                    <option value="0">Disable</option>
+              <field name="ramblersdisableprivacy" type="radio" default="1" label="Display link to Ramblers privacy policy">
+                    <option value="0">Enable</option>
+                    <option value="1">Disable</option>
                 </field>
                  <field name="custom_css_file" type="text" default="" label="Additional_css" description="Additional Custom css file"/>
                 <field name="alternative_css_file" type="text" default="" label="Alternative_css" description="Alternative css file"/>
