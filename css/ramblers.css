@@ -459,6 +459,18 @@ a.link-button, .link-button a {
     padding: 5px 12px;
     text-decoration: none;
 }
+.link-button.small {
+
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.1em;
+    padding: 3px 6px;
+    text-decoration: none;
+    margin-bottom:5px;
+}
+.link-button.white {
+    color:white;
+}
 
 .link-button.button-p0110{
     background-image: linear-gradient(-90deg, #D7A900 0%, #FBC200 100%);
