@@ -730,3 +730,7 @@ ul.userkunenacatorgories li{
     list-style-type: square;
     font-weight: 800
 }
+/* fix for JSN Uniform date input */
+.input-medium {
+    width: auto;
+}
