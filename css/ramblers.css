@@ -731,6 +731,6 @@ ul.userkunenacatorgories li{
     font-weight: 800
 }
 /* fix for JSN Uniform date input */
-.input-medium {
-    width: auto;
+.jsn-daterangepicker  {
+    width: calc(50% - 44px)
 }
