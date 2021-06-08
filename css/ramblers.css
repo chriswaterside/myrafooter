@@ -441,7 +441,7 @@ div.ramod_pantone5565  {  border-color: #8BA69C;}
 div.ramod_pantone7474  {  border-color: #007A87;}
 
 /* Link buttons in RA colours */
-a.link-button, .link-button a {
+button.link-button,a.link-button, .link-button a {
     color: #fff ;
     font-weight: bold;
 }
