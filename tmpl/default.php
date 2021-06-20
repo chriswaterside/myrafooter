@@ -9,6 +9,8 @@
  * @license	http://www.gnu.org/licenses/gpl.html GNU/GPL
  */
 defined('_JEXEC') or die('Restricted access');
+$revisionversion = "1";
+
 $startyear = $params->get('startyear');
 $copyrighttext = $params->get('copyrighttext');
 $ramblerswebs = $params->get('ramblerswebs');
@@ -36,16 +38,16 @@ if ($footerstyle == 1) {
     $text.="#rt-footer,#rt-copyright {background-color: " . $backcolour . "   !important;}";
     $document->addStyleDeclaration($text);
     if ($textcolour == 0) {
-        $document->addStyleSheet(JURI::base() . 'modules/mod_rafooter/css/footerwhitestyle.css');
+        $document->addStyleSheet(JURI::base() . 'modules/mod_rafooter/css/footerwhitestyle.css?rev=' . $revisionversion);
     } else {
-        $document->addStyleSheet(JURI::base() . 'modules/mod_rafooter/css/footerdarkstyle.css');
+        $document->addStyleSheet(JURI::base() . 'modules/mod_rafooter/css/footerdarkstyle.css?rev=' . $revisionversion);
     }
 }
 // add in style sheets
 if ($alternativecssfile != "") {
     $document->addStyleSheet(JURI::base() . $alternativecssfile);
 } else {
-    $document->addStyleSheet(JURI::base() . 'modules/mod_rafooter/css/ramblers.css');
+    $document->addStyleSheet(JURI::base() . 'modules/mod_rafooter/css/ramblers.css?rev=' . $revisionversion);
     if ($customcssfile != "") {
         $document->addStyleSheet(JURI::base() . $customcssfile);
     }
