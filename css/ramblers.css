@@ -21,6 +21,9 @@
     --pantone5565:#8BA69C;           
     --pantone7474:#007A87;           
 }
+body {
+    font-family: 'Assistant', 'Helvetica', arial, serif;
+}
 /* fixes to Gantry formatting       */
 #rt-top div.rt-block{
     padding: 0px;
@@ -495,7 +498,6 @@ div.ramod_full.sunrise, div.ramod_full.sunrise h2 {  background: var(--sunrise);
 div.ramod_full.cloudy, div.ramod_full.cloudy h2 {  background: var(--cloudy);}
 
 
-
 div.ramod_pantone0110, div.ramod_pantone0110 h2 {  background: var(--pantone0110);}
 div.ramod_pantone0159, div.ramod_pantone0159 h2 {  background: var(--pantone0159);}
 div.ramod_pantone0186, div.ramod_pantone0186 h2 {  background: var(--pantone0186);}
@@ -525,11 +527,14 @@ div.ramod_pantone5565  {  border-color: var(--pantone5565);}
 div.ramod_pantone7474  {  border-color: var(--pantone7474);}
 
 /* Link buttons in RA colours */
-button.link-button,a.link-button, .link-button a {
+button.link-button,
+a.link-button,
+.link-button a {
     color: #fff ;
     font-weight: bold;
 }
-.link-button, .link-button a {
+.link-button,
+.link-button a {
     transition: all 0.3s ease-out 0s;
 }
 .link-button {
@@ -556,40 +561,40 @@ button.link-button,a.link-button, .link-button a {
     color:white;
 }
 
-.link-button.button-mintCake{
+.link-button.mintCake{
     background-image: linear-gradient(-90deg, var(--mintCake) 0%, #FBC200 100%);
 }
-.link-button.button-sunset{
+.link-button.sunset{
     background-image: linear-gradient(-90deg, var(--sunset) 0%, #FBC200 100%);
 }
-.link-button.button-granite{
+.link-button.granite{
     background-image: linear-gradient(-90deg, var(--granite) 0%, #FBC200 100%);
 }
-.link-button.button-rosyCheeks{
+.link-button.rosyCheeks{
     background-image: linear-gradient(-90deg, var(--rosyCheeks) 0%, #FBC200 100%);
 }
-.link-button.button-sunrise{
+.link-button.sunrise{
     background-image: linear-gradient(-90deg, var(--sunrise) 0%, #FBC200 100%);
 }
-.link-button.button-cloudy{
+.link-button.cloudy{
     background-image: linear-gradient(-90deg, var(--cloudy) 0%, #FBC200 100%);
 }
-.link-button.button-mintCake:hover {
+.link-button.mintCake:hover {
     background-image: linear-gradient(-90deg, #FBC200 0%, var(--mintCake) 100%);
 }
-.link-button.button-sunset:hover {
+.link-button.sunset:hover {
     background-image: linear-gradient(-90deg, #FBC200 0%, var(--sunset) 100%);
 }
-.link-button.button-granite:hover {
+.link-button.granite:hover {
     background-image: linear-gradient(-90deg, #FBC200 0%, var(--granite) 100%);
 }
-.link-button.button-rosyCheeks:hover {
+.link-button.rosyCheeks:hover {
     background-image: linear-gradient(-90deg, #FBC200 0%, var(--rosyCheeks) 100%);
 }
-.link-button.button-sunrise:hover {
+.link-button.sunrise:hover {
     background-image: linear-gradient(-90deg, #FBC200 0%, var(--sunrise) 100%);
 }
-.link-button.button-cloudy:hover {
+.link-button.cloudy:hover {
     background-image: linear-gradient(-90deg, #FBC200 0%, var(--cloudy) 100%);
 }
 
