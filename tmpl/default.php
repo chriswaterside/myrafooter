@@ -9,7 +9,7 @@
  * @license	http://www.gnu.org/licenses/gpl.html GNU/GPL
  */
 defined('_JEXEC') or die('Restricted access');
-$revisionversion = "1";
+$revisionversion = "4.7.2";
 
 $startyear = $params->get('startyear');
 $copyrighttext = $params->get('copyrighttext');

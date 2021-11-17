@@ -8,8 +8,9 @@
     --sunset:#F08050;
     --granite:#404141;
     --rosyCheeks:#F6B09D;
-    --sunrise:--F9B104;
+    --sunrise:#F9B104;
     --cloudy:#FFFFFF;
+    --mintCakeDark:#ABD8BB;
     /* June 2017 -  */
     --pantone0110:#D7A900;
     --pantone0159:#C75B12;
@@ -94,42 +95,42 @@ div.component-content table th, div.component-content table td {
     vertical-align: top;
 }
 table th {
-    background-color: var(--pantone5565);
-    background-image: -moz-linear-gradient(center top , var(--pantone5565), #A3B8B0);
+    background-color: var(--sunset);
+    background-image: -moz-linear-gradient(center top , var(--sunset), #FBC200);
     background-repeat: repeat-x;
-    color: #000000;
+    color: #FFFFFF;
 }
-/* 2021 Branding */
+/* 2022 Branding */
 
 table.mintCake th {
     background-color: var(--mintCake);
     background-image: -moz-linear-gradient(center top , var(--mintCake), #FBC200);
     background-repeat: repeat-x;
-    color: #000000;
+    color: #FFFFFF;
 }
 table.sunset th {
     background-color: var(--sunset);
     background-image: -moz-linear-gradient(center top , var(--sunset), #FBC200);
     background-repeat: repeat-x;
-    color: #000000;
+    color: #FFFFFF;
 }
 table.granite th {
     background-color: var(--granite);
     background-image: -moz-linear-gradient(center top , var(--granite), #FBC200);
     background-repeat: repeat-x;
-    color: #000000;
+    color: #FFFFFF;
 }
 table.rosyCheeks th {
     background-color: var(--rosyCheeks);
     background-image: -moz-linear-gradient(center top , var(--rosyCheeks), #FBC200);
     background-repeat: repeat-x;
-    color: #000000;
+    color: #FFFFFF;
 }
 table.sunrise th {
     background-color: var(--sunrise);
     background-image: -moz-linear-gradient(center top , var(--sunrise), #FBC200);
     background-repeat: repeat-x;
-    color: #000000;
+    color: #FFFFFF;
 }
 table.cloudy th {
     background-color: var(--cloudy);
@@ -541,7 +542,7 @@ a.link-button,
     border-radius: 5px;
 }
 .link-button {
-
+    border-color: white;
     cursor: pointer;
     display: inline-block;
     font-size: 1.1em;
@@ -557,12 +558,21 @@ a.link-button,
     text-decoration: none;
     margin-bottom:5px;
 }
+.link-button.tiny {
+
+    cursor: pointer;
+    display: inline-block;
+    font-size: .9em;
+    padding: 2px 4px;
+    text-decoration: none;
+    margin-bottom:3px;
+}
 .link-button.white {
     color:white;
 }
 
 .link-button.mintCake{
-    background-image: linear-gradient(-90deg, var(--mintCake) 0%, #FBC200 100%);
+    background-image: linear-gradient(-90deg, var(--mintCakeDark) 0%, var(--mintCake) 100%);
 }
 .link-button.sunset{
     background-image: linear-gradient(-90deg, var(--sunset) 0%, #FBC200 100%);
@@ -580,7 +590,7 @@ a.link-button,
     background-image: linear-gradient(-90deg, var(--cloudy) 0%, #FBC200 100%);
 }
 .link-button.mintCake:hover {
-    background-image: linear-gradient(-90deg, #FBC200 0%, var(--mintCake) 100%);
+    background-image: linear-gradient(-90deg, var(--mintCake) 0%, var(--mintCakeDark) 100%);
 }
 .link-button.sunset:hover {
     background-image: linear-gradient(-90deg, #FBC200 0%, var(--sunset) 100%);
