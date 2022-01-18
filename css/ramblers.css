@@ -4,13 +4,13 @@
 :root {
     /* Ramblers colours */
     /* 2021  */
-    --mintCake:#9BC8AB;
+    --mintcake:#9BC8AB;
     --sunset:#F08050;
     --granite:#404141;
-    --rosyCheeks:#F6B09D;
+    --rosycheeks:#F6B09D;
     --sunrise:#F9B104;
     --cloudy:#FFFFFF;
-    --mintCakeDark:#ABD8BB;
+    --mintcakedark:#ABD8BB;
     /* June 2017 -  */
     --pantone0110:#D7A900;
     --pantone0159:#C75B12;
@@ -102,9 +102,9 @@ table th {
 }
 /* 2022 Branding */
 
-table.mintCake th {
-    background-color: var(--mintCake);
-    background-image: -moz-linear-gradient(center top , var(--mintCake), #FBC200);
+table.mintcake th {
+    background-color: var(--mintcake);
+    background-image: -moz-linear-gradient(center top , var(--mintcake), #FBC200);
     background-repeat: repeat-x;
     color: #FFFFFF;
 }
@@ -120,9 +120,9 @@ table.granite th {
     background-repeat: repeat-x;
     color: #FFFFFF;
 }
-table.rosyCheeks th {
-    background-color: var(--rosyCheeks);
-    background-image: -moz-linear-gradient(center top , var(--rosyCheeks), #FBC200);
+table.rosycheeks th {
+    background-color: var(--rosycheeks);
+    background-image: -moz-linear-gradient(center top , var(--rosycheeks), #FBC200);
     background-repeat: repeat-x;
     color: #FFFFFF;
 }
@@ -434,10 +434,10 @@ div.ramod_heading7474 h2  {
 
 
 /* set heading colours */
-div.ramod_heading.mintCake h2 {  background: var(--mintCake);}
+div.ramod_heading.mintcake h2 {  background: var(--mintcake);}
 div.ramod_heading.sunset h2 {  background: var(--sunset);}
 div.ramod_heading.granite h2 {  background: var(--granite);}
-div.ramod_heading.rosyCheeks h2 {  background: var(--rosyCheeks);}
+div.ramod_heading.rosycheeks h2 {  background: var(--rosycheeks);}
 div.ramod_heading.sunrise h2 {  background: var(--sunrise);}
 div.ramod_heading.cloudy h2 {  background: var(--cloudy);}
 
@@ -453,10 +453,10 @@ div.ramod_heading7474 h2 {  background: var(--pantone7474);}
 
 /* outline set colours*/
 
-div.ramod_outline.mintCake {  border-color: var(--mintCake);}
+div.ramod_outline.mintcake {  border-color: var(--mintcake);}
 div.ramod_outline.sunset {  border-color: var(--sunset);}
 div.ramod_outline.granite {  border-color: var(--granite);}
-div.ramod_outline.rosyCheeks {  border-color: var(--rosyCheeks);}
+div.ramod_outline.rosycheeks {  border-color: var(--rosycheeks);}
 div.ramod_outline.sunrise {  border-color: var(--sunrise);}
 div.ramod_outline.cloudy {  border-color: var(--cloudy);}
 
@@ -471,10 +471,10 @@ div.ramod_outline4485 {  border-color: var(--pantone4485);}
 div.ramod_outline5565 {  border-color: var(--pantone5565);}
 div.ramod_outline7474 {  border-color: var(--pantone7474);}
 
-div.ramod_outline.mintCake h2 {  background: var(--mintCake);}
+div.ramod_outline.mintcake h2 {  background: var(--mintcake);}
 div.ramod_outline.sunset h2 {  background: var(--sunset);}
 div.ramod_outline.granite h2 {  background: var(--granite);}
-div.ramod_outline.rosyCheeks h2 {  background: var(--rosyCheeks);}
+div.ramod_outline.rosycheeks h2 {  background: var(--rosycheeks);}
 div.ramod_outline.sunrise h2 {  background: var(--sunrise);}
 div.ramod_outline.cloudy h2 {  background: var(--cloudy);}
 
@@ -491,10 +491,10 @@ div.ramod_outline7474 h2 {  background: var(--pantone7474);}
 
 /* pantone set colours*/
 
-div.ramod_full.mintCake, div.ramod_full.mintCake h2 {  background: var(--mintCake);}
+div.ramod_full.mintcake, div.ramod_full.mintcake h2 {  background: var(--mintcake);}
 div.ramod_full.sunset, div.ramod_full.sunset h2 {  background: var(--sunset);}
 div.ramod_full.granite, div.ramod_full.granite h2 {  background: var(--granite);}
-div.ramod_full.rosyCheeks, div.ramod_full.rosyCheeks h2 {  background: var(--rosyCheeks);}
+div.ramod_full.rosycheeks, div.ramod_full.rosycheeks h2 {  background: var(--rosycheeks);}
 div.ramod_full.sunrise, div.ramod_full.sunrise h2 {  background: var(--sunrise);}
 div.ramod_full.cloudy, div.ramod_full.cloudy h2 {  background: var(--cloudy);}
 
@@ -509,10 +509,10 @@ div.ramod_pantone4485, div.ramod_pantone4485 h2 {  background: var(--pantone4485
 div.ramod_pantone5565, div.ramod_pantone5565 h2 {  background: var(--pantone5565);}
 div.ramod_pantone7474, div.ramod_pantone7474 h2 {  background: var(--pantone7474);}
 
-div.ramod_full.mintCake  {  border-color: var(--mintCake);}
+div.ramod_full.mintcake  {  border-color: var(--mintcake);}
 div.ramod_full.sunset  {  border-color: var(--sunset);}
 div.ramod_full.granite  {  border-color: var(--granite);}
-div.ramod_full.rosyCheeks  {  border-color: var(--rosyCheeks);}
+div.ramod_full.rosycheeks  {  border-color: var(--rosycheeks);}
 div.ramod_full.sunrise  {  border-color: var(--sunrise);}
 div.ramod_full.cloudy  {  border-color: var(--cloudy);}
 
@@ -571,8 +571,8 @@ a.link-button,
     color:white;
 }
 
-.link-button.mintCake{
-    background-image: linear-gradient(-90deg, var(--mintCakeDark) 0%, var(--mintCake) 100%);
+.link-button.mintcake{
+    background-image: linear-gradient(-90deg, var(--mintcakedark) 0%, var(--mintcake) 100%);
 }
 .link-button.sunset{
     background-image: linear-gradient(-90deg, var(--sunset) 0%, #FBC200 100%);
@@ -580,8 +580,8 @@ a.link-button,
 .link-button.granite{
     background-image: linear-gradient(-90deg, var(--granite) 0%, #FBC200 100%);
 }
-.link-button.rosyCheeks{
-    background-image: linear-gradient(-90deg, var(--rosyCheeks) 0%, #FBC200 100%);
+.link-button.rosycheeks{
+    background-image: linear-gradient(-90deg, var(--rosycheeks) 0%, #FBC200 100%);
 }
 .link-button.sunrise{
     background-image: linear-gradient(-90deg, var(--sunrise) 0%, #FBC200 100%);
@@ -589,8 +589,8 @@ a.link-button,
 .link-button.cloudy{
     background-image: linear-gradient(-90deg, var(--cloudy) 0%, #FBC200 100%);
 }
-.link-button.mintCake:hover {
-    background-image: linear-gradient(-90deg, var(--mintCake) 0%, var(--mintCakeDark) 100%);
+.link-button.mintcake:hover {
+    background-image: linear-gradient(-90deg, var(--mintcake) 0%, var(--mintcakedark) 100%);
 }
 .link-button.sunset:hover {
     background-image: linear-gradient(-90deg, #FBC200 0%, var(--sunset) 100%);
@@ -598,8 +598,8 @@ a.link-button,
 .link-button.granite:hover {
     background-image: linear-gradient(-90deg, #FBC200 0%, var(--granite) 100%);
 }
-.link-button.rosyCheeks:hover {
-    background-image: linear-gradient(-90deg, #FBC200 0%, var(--rosyCheeks) 100%);
+.link-button.rosycheeks:hover {
+    background-image: linear-gradient(-90deg, #FBC200 0%, var(--rosycheeks) 100%);
 }
 .link-button.sunrise:hover {
     background-image: linear-gradient(-90deg, #FBC200 0%, var(--sunrise) 100%);
