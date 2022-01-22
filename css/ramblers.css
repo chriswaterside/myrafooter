@@ -11,6 +11,7 @@
     --sunrise:#F9B104;
     --cloudy:#FFFFFF;
     --mintcakedark:#ABD8BB;
+    --cancelled:#C60C30;
     /* June 2017 -  */
     --pantone0110:#D7A900;
     --pantone0159:#C75B12;
@@ -25,6 +26,11 @@
 body {
     font-family: 'Assistant', 'Helvetica', arial, serif;
 }
+/* RA Branding changes */
+
+a:hover{
+    text-decoration: underline;
+    }
 /* fixes to Gantry formatting       */
 #rt-top div.rt-block{
     padding: 0px;
@@ -38,11 +44,7 @@ body {
     margin-top: 2px;
 }
 
-a:hover {
-    color: var(--pantone0583);
-}
-
-.cancelled {color:var(--pantone0186); text-decoration: line-through;}
+.cancelled {color:var(--cancelled); text-decoration: line-through;}
 
 .preformat {
     background: none repeat scroll 0 0 #ffffd5;
@@ -572,40 +574,45 @@ a.link-button,
 }
 
 .link-button.mintcake{
-    background-image: linear-gradient(-90deg, var(--mintcakedark) 0%, var(--mintcake) 100%);
+    background-color:  var(--mintcake);
+    background-image: none;
 }
 .link-button.sunset{
-    background-image: linear-gradient(-90deg, var(--sunset) 0%, #FBC200 100%);
+    background-color:  var(--sunset);
+    background-image: none;
 }
 .link-button.granite{
-    background-image: linear-gradient(-90deg, var(--granite) 0%, #FBC200 100%);
+    background-color:  var(--granite);
+    background-image: none;
 }
 .link-button.rosycheeks{
-    background-image: linear-gradient(-90deg, var(--rosycheeks) 0%, #FBC200 100%);
+    background-color:  var(--rosycheeks);
+    background-image: none;
 }
-.link-button.sunrise{
-    background-image: linear-gradient(-90deg, var(--sunrise) 0%, #FBC200 100%);
+.link-button.sunrise{ 
+    background-color:  var(--sunrise);
+    background-image: none;
 }
 .link-button.cloudy{
-    background-image: linear-gradient(-90deg, var(--cloudy) 0%, #FBC200 100%);
+    background-color: #EEEEE;
 }
 .link-button.mintcake:hover {
-    background-image: linear-gradient(-90deg, var(--mintcake) 0%, var(--mintcakedark) 100%);
+    background-color:  var(--sunrise);
 }
 .link-button.sunset:hover {
-    background-image: linear-gradient(-90deg, #FBC200 0%, var(--sunset) 100%);
+    background-color:  var(--sunrise);
 }
 .link-button.granite:hover {
-    background-image: linear-gradient(-90deg, #FBC200 0%, var(--granite) 100%);
+    background-color:  var(--sunrise);
 }
 .link-button.rosycheeks:hover {
-    background-image: linear-gradient(-90deg, #FBC200 0%, var(--rosycheeks) 100%);
+    background-color:  var(--sunrise);
 }
 .link-button.sunrise:hover {
-    background-image: linear-gradient(-90deg, #FBC200 0%, var(--sunrise) 100%);
+    background-color:  var(--sunset);
 }
 .link-button.cloudy:hover {
-    background-image: linear-gradient(-90deg, #FBC200 0%, var(--cloudy) 100%);
+    background-color:  var(--sunrise);
 }
 
 
