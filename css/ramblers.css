@@ -12,6 +12,7 @@
     --cloudy:#FFFFFF;
     --mintcakedark:#ABD8BB;
     --cancelled:#C60C30;
+    --lightgrey: #A0A0A0;
     /* June 2017 -  */
     --pantone0110:#D7A900;
     --pantone0159:#C75B12;
@@ -97,8 +98,8 @@ div.component-content table th, div.component-content table td {
     vertical-align: top;
 }
 table th {
-    background-color: var(--sunset);
-    background-image: -moz-linear-gradient(center top , var(--sunset), #FBC200);
+    background-color: var(--lightgrey);
+   
     background-repeat: repeat-x;
     color: #FFFFFF;
 }
