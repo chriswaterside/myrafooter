@@ -9,7 +9,7 @@
  * @license	http://www.gnu.org/licenses/gpl.html GNU/GPL
  */
 defined('_JEXEC') or die('Restricted access');
-$revisionversion = "4.7.2";
+$revisionversion = "3.0.3";
 
 $startyear = $params->get('startyear');
 $copyrighttext = $params->get('copyrighttext');
@@ -26,16 +26,23 @@ $imageposition = $params->get('imageposition');
 $customcssfile = $params->get('custom_css_file');
 $alternativecssfile = $params->get('alternative_css_file');
 $document = JFactory::getDocument();
-
+$url = null;
 if ($footerstyle == 1) {
     if ($standardimage == 1) {
         $url = JURI::base() . "modules/mod_rafooter/images/footer-bg.png";
     } else {
-        $url = JURI::base() . $footer_image;
+        if ($footer_image !== null) {
+            $url = JURI::base() . $footer_image;
+        }
     }
-    $text = "div#rt-bottom {background: url(" . $url . ") no-repeat scroll bottom " . $imageposition . "; background-size:contain; min-height: 120px}";
+    if ($url !== null) {
+        $text = "#rt-bottom {background: url(" . $url . ") no-repeat scroll bottom " . $imageposition . "; background-size:contain; min-height: 120px}";
+    } else {
+        $text = "";
+    }
+    //$text = "#rt-bottom {background: url(" . $url . ") no-repeat scroll bottom " . $imageposition . "; background-size:contain; min-height: 120px}";
     $backcolour = getFooterColor($background_color, $custom_background_color);
-    $text.="#rt-footer,#rt-copyright {background-color: " . $backcolour . "   !important;}";
+    $text .= "#rt-footer,#rt-copyright {background-color: " . $backcolour . "   !important;}";
     $document->addStyleDeclaration($text);
     if ($textcolour == 0) {
         $document->addStyleSheet(JURI::base() . 'modules/mod_rafooter/css/footerwhitestyle.css?rev=' . $revisionversion);
@@ -44,11 +51,11 @@ if ($footerstyle == 1) {
     }
 }
 // add in style sheets
-if ($alternativecssfile != "") {
+if ($alternativecssfile !== null) {
     $document->addStyleSheet(JURI::base() . $alternativecssfile);
 } else {
     $document->addStyleSheet(JURI::base() . 'modules/mod_rafooter/css/ramblers.css?rev=' . $revisionversion);
-    if ($customcssfile != "") {
+    if ($customcssfile !== null) {
         $document->addStyleSheet(JURI::base() . $customcssfile);
     }
 }
@@ -56,17 +63,15 @@ if ($alternativecssfile != "") {
 $copyright_symbol = '&copy;';
 // Copyright year
 $current_year = date('Y');
-
+$footer = '<div class="footer" id=rafooter>';
 switch ($footersize) {
     case 0: // short
-        $footer = '<div class="footer" id=rafooter>';
         $footer .= '<div>Ramblers Charity England & Wales No: 1093577 Scotland No: SC039799</div><div>' . $copyright_symbol . ' ' . $copyrighttext . '-' . $current_year . '</div>';
         if ($ramblerswebs != 0) {
             $footer .= '<div>Hosted by <a href="http://www.ramblers-webs.org.uk/" target="_blank">www.ramblers-webs.org.uk</a></div>';
         }
         break;
     case 1:  // full
-        $footer = '<div class="footer">';
         $footer .= 'Copyright ' . $copyright_symbol . ' ' . $startyear . '-' . $current_year . ' ' . $copyrighttext . '<br />';
         if ($ramblerswebs != 0) {
             $footer .= 'Hosted by <a href="http://www.ramblers-webs.org.uk/" target="_blank">www.ramblers-webs.org.uk</a>. Centrally funded hosting for Areas and Groups<br />';
@@ -74,14 +79,11 @@ switch ($footersize) {
         $footer .= "The Ramblers' Association is a company limited by guarantee, registered in England and Wales. Company registration number: 4458492. Ramblers Charity England & Wales No: 1093577 Scotland No: SC039799. <br />Registered office: 1 Clink Street, 3rd Floor, London, SE1 9DG";
         break;
     case 2:  // none
-        $footer = '<div class="footer">';
         $footer .= 'Copyright ' . $copyright_symbol . ' ' . $startyear . '-' . $current_year . ' ' . $copyrighttext . '<br />';
-
         break;
-
     default:
 }
-$footer.='</div>';
+$footer .= '</div>';
 if (!$ramblersdisableprivacy) {
     $footer .= '<p><a href="http://www.ramblers.org.uk/technical-stuff/privacy-policy.aspx" target="_blank">Ramblers Privacy Policy</a></p>';
 }

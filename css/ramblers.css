@@ -24,8 +24,11 @@
     --pantone5565:#8BA69C;           
     --pantone7474:#007A87;           
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600;700;800&display=swap');
+
 body {
-    font-family: 'Assistant', 'Helvetica', arial, serif;
+    font-family:  'Assistant' ,arial, serif;
 }
 /* RA Branding changes */
 
