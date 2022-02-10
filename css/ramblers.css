@@ -288,9 +288,6 @@ legend.hidelabeltxt {
     line-height: 25px;
     margin-bottom: 10px;
 }
-.boldheader .module-title h2.title {
-    font-weight:bold;
-}
 
 div.ramod_full,
 div.ramod_pantone0110,
@@ -736,6 +733,9 @@ div.ramod_full.granitetext .module-content{
     color: var(--granite);
 }
 
+.boldheader .module-title h2.title {
+    font-weight:bold;
+}
 
 
 /* Link buttons in RA colours */
