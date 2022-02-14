@@ -14,6 +14,7 @@
     --cancelled:#C60C30;
     --lightgrey: #C0C0C0;
     --midgrey: #808080;
+    --warning: #C60C30;
     /* June 2017 -  */
     --pantone0110:#D7A900;
     --pantone0159:#C75B12;
@@ -472,6 +473,9 @@ div.ramod_heading.midgrey h2 {
 div.ramod_heading.lightgrey h2 {
     background: var(--lightgrey);
 }
+div.ramod_heading.warning h2 {
+    background: var(--warning);
+}
 
 div.ramod_heading0110 h2 {
     background: var(--pantone0110);
@@ -527,6 +531,9 @@ div.ramod_outline.midgrey {
 div.ramod_outline.lightgrey {
     border-color: var(--lightgrey);
 }
+div.ramod_outline.warning {
+    border-color: var(--warning);
+}
 
 
 div.ramod_outline0110 {
@@ -580,6 +587,9 @@ div.ramod_outline.midgrey h2 {
 }
 div.ramod_outline.lightgrey h2 {
     background: var(--lightgrey);
+}
+div.ramod_outline.warning h2 {
+    background: var(--warning);
 }
 
 
@@ -637,6 +647,9 @@ div.ramod_full.midgrey, div.ramod_full.midgrey h2 {
 div.ramod_full.lightgrey, div.ramod_full.lightgrey h2 {
     background: var(--lightgrey);
 }
+div.ramod_full.warning, div.ramod_full.warning h2 {
+    background: var(--warning);
+}
 
 
 div.ramod_pantone0110, div.ramod_pantone0110 h2 {
@@ -690,6 +703,9 @@ div.ramod_full.midgrey  {
 }
 div.ramod_full.lightgrey  {
     border-color: var(--lightgrey);
+}
+div.ramod_full.warning  {
+    border-color: var(--warning);
 }
 
 
