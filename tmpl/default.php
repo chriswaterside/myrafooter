@@ -9,7 +9,7 @@
  * @license	http://www.gnu.org/licenses/gpl.html GNU/GPL
  */
 defined('_JEXEC') or die('Restricted access');
-$revisionversion = "3.0.5";
+$revisionversion = "3.0.7";
 
 $startyear = $params->get('startyear');
 $copyrighttext = $params->get('copyrighttext');
@@ -85,7 +85,7 @@ switch ($footersize) {
 }
 $footer .= '</div>';
 if (!$ramblersdisableprivacy) {
-    $footer .= '<p><a href="http://www.ramblers.org.uk/technical-stuff/privacy-policy.aspx" target="_blank">Ramblers Privacy Policy</a></p>';
+    $footer .= '<p><a href="https://www.ramblers.org.uk/privacy" target="_blank">Ramblers Privacy Policy</a></p>';
 }
 
 echo $footer;

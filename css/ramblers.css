@@ -290,7 +290,7 @@ legend.hidelabeltxt {
     margin-bottom: 10px;
 }
 
-div.ramod_full,
+div.rt-block.ramod_full,
 div.ramod_pantone0110,
 div.ramod_pantone0159,
 div.ramod_pantone0186,
@@ -313,7 +313,7 @@ div.ramod_pantone7474
     width:93%;
 }
 
-div.ramod_outline,
+div.rt-block.ramod_outline,
 div.ramod_outline0110,
 div.ramod_outline0159,
 div.ramod_outline0186,
@@ -336,7 +336,7 @@ div.ramod_outline7474
 
 }
 
-div.ramod_heading,
+div.rt-block.ramod_heading,
 div.ramod_heading0110,
 div.ramod_heading0159,
 div.ramod_heading0186,
@@ -767,8 +767,7 @@ a.link-button,
 }
 .link-button {
     border-radius: 5px;
-}
-.link-button {
+    margin-right:5px;
     border-color: white;
     cursor: pointer;
     display: inline-block;
@@ -777,7 +776,6 @@ a.link-button,
     text-decoration: none;
 }
 .link-button.small {
-
     cursor: pointer;
     display: inline-block;
     font-size: 1.1em;
@@ -786,10 +784,9 @@ a.link-button,
     margin-bottom:5px;
 }
 .link-button.tiny {
-
     cursor: pointer;
     display: inline-block;
-    font-size: .9em;
+    font-size: .8em;
     padding: 2px 4px;
     text-decoration: none;
     margin-bottom:3px;
@@ -819,7 +816,7 @@ a.link-button,
     background-image: none;
 }
 .link-button.cloudy{
-    background-color: #EEEEE;
+    background-color: #EEEEEE;
 }
 .link-button.mintcake:hover {
     background-color:  var(--sunrise);
