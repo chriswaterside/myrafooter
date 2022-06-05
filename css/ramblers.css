@@ -817,6 +817,9 @@ a.link-button,
 }
 .link-button.cloudy{
     background-color: #EEEEEE;
+    background-image: none;
+    color: var(--granite);
+    border-color: var(--granite);
 }
 .link-button.mintcake:hover {
     background-color:  var(--sunrise);

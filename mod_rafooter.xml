@@ -2,12 +2,12 @@
 <extension type="module" version="3.0" client="site" method="upgrade">
     <name>RA Footer</name>
     <author>Chris Vaughan Derby and South Derbyshire</author>
-    <creationDate>23 May 2022</creationDate>
+    <creationDate>5 June 2022</creationDate>
     <copyright>Copyright (C) 2015-2022 Ramblers-webs.org.uk</copyright>
     <license>This extension in released under the GNU/GPL License</license>
     <authorEmail>webmaster@ramblers-webs.org.uk</authorEmail>
     <authorUrl>www.ramblers-webs.org.uk</authorUrl>
-    <version>3.0.8</version>
+    <version>3.0.9</version>
     <description>This module displays customizable footer module for Ramblers branding</description>
     <updateservers>
         <server type="extension" name="Ramblers Footer Module" priority="1">https://raw.githubusercontent.com/ramblerswebs/updates/master/updates/rafooter.xml</server>
