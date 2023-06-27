@@ -1,4 +1,5 @@
 <?php
+// namespace RW\Module\Footer;
 
 // no direct access
 /**
@@ -76,7 +77,7 @@ switch ($footersize) {
         if ($ramblerswebs != 0) {
             $footer .= 'Hosted by <a href="http://www.ramblers-webs.org.uk/" target="_blank">www.ramblers-webs.org.uk</a>. Centrally funded hosting for Areas and Groups<br />';
         }
-        $footer .= "The Ramblers' Association is a company limited by guarantee, registered in England and Wales. Company registration number: 4458492. Ramblers Charity England & Wales No: 1093577 Scotland No: SC039799. <br />Registered office: 1 Clink Street, 3rd Floor, London, SE1 9DG";
+        $footer .= "The Ramblers' Association is a company limited by guarantee, registered in England and Wales. Company registration number: 4458492. Ramblers Charity England & Wales No: 1093577 Scotland No: SC039799. <br />Registered office: First Floor, 10 Queen Street Place, London EC4R 1BE";
         break;
     case 2:  // none
         $footer .= 'Copyright ' . $copyright_symbol . ' ' . $startyear . '-' . $current_year . ' ' . $copyrighttext . '<br />';
