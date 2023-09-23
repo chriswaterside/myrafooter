@@ -34,6 +34,10 @@ body {
 }
 /* RA Branding changes */
 
+a[target='_blank']{
+   cursor: url("../images/newwindow.png"),pointer;
+}
+
 a:hover{
     text-decoration: underline;
 }
