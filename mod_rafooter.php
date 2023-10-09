@@ -11,7 +11,7 @@
 // no direct access
 defined( "_JEXEC" ) or die( "Restricted access" );
 
-$moduleclass_sfx = htmlspecialchars($params->get('moduleclass_sfx'));
+$moduleclass_sfx = htmlspecialchars($params->get('moduleclass_sfx') ?? '');
 
 require(JModuleHelper::getLayoutPath('mod_rafooter', $params->get('layout', 'default')));
 
