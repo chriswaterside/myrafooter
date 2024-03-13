@@ -3,7 +3,7 @@
 
 // no direct access
 /**
- * @module	RA Footer
+ * @module	RA Footer...
  * @author	Chris Vaughan
  * @website	http://ramblers-webs.org.uk/
  * @copyright	Copyright (C) 2013 Chris Vaughan <webmaster@ramblers-webs.org.uk>. All rights reserved.
