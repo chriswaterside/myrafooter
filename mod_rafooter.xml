@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="module" version="3.0" client="site" method="upgrade">
-    <name>RA Footer</name>
+    <name>RA Footer</name> 
     <author>Chris Vaughan Derby and South Derbyshire</author>
     <creationDate>31 August 2023</creationDate>
     <copyright>Copyright (C) 2015-2023 Ramblers-webs.org.uk</copyright>
