@@ -3,14 +3,14 @@
 
 // no direct access
 /**
- * @module	RA Footer...
+ * @module	RA Footer
  * @author	Chris Vaughan
  * @website	http://ramblers-webs.org.uk/
  * @copyright	Copyright (C) 2013 Chris Vaughan <webmaster@ramblers-webs.org.uk>. All rights reserved.
  * @license	http://www.gnu.org/licenses/gpl.html GNU/GPL
  */
 defined('_JEXEC') or die('Restricted access');
-$revisionversion = "3.0.11";
+$revisionversion = "3.0.13";
 
 $startyear = $params->get('startyear');
 $copyrighttext = $params->get('copyrighttext');
